@@ -4,7 +4,7 @@ import { Skills } from '../sections/skills/Skills';
 import { Experience } from '../sections/experience/Experience';
 import { Projects } from '../sections/projects/Projects';
 import { Recommendations } from '../sections/recommendations/Recommendations';
-import { Contact } from '../sections/contact/Contact';
+import { Contact } from '../sections/contact/Contact.tsx';
 
 export const Home: React.FC = () => {
   return (
