@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Academic Background",
+    "heading": "Education",
+    "description": "Degrees and programs that shaped my technical foundation and design thinking."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University",
+      "period": "2019 - 2021",
+      "summary": "Specialized in AI systems, modern web architecture, and human-centered software design."
+    }
+  ]
+}

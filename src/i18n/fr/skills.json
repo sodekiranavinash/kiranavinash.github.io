@@ -1,0 +1,53 @@
+{
+  "section": {
+    "eyebrow": "Core strengths",
+    "heading": "Skills & Expertise",
+    "description": "The tools, platforms, and disciplines I use to ship polished, production-ready experiences."
+  },
+  "categories": [
+    {
+      "categoryName": "AI",
+      "skills": [
+        { "name": "Prompt Engineering" },
+        { "name": "RAG" },
+        { "name": "Multi-Agent Systems" },
+        { "name": "MCP" },
+        { "name": "AI Evaluation" },
+        { "name": "Lang Chain" },
+        { "name": "Langraph" },
+        { "name": "OpenSearch Vector DB" }
+      ]
+    },
+    {
+      "categoryName": "Full Stack",
+      "skills": [
+        { "name": "FastAPI" },
+        { "name": "React" },
+        { "name": "Python" },
+        { "name": "JavaScript" },
+        { "name": "TypeScript" },
+        { "name": "SQL" },
+        { "name": "PostgreSQL" },
+        { "name": "Oracle DB" },
+        { "name": "MariaDB" },
+        { "name": "Golang(basics)" },
+        { "name": ".NET(basics)" }
+      ]
+    },
+    {
+      "categoryName": "Cloud & Infra",
+      "skills": [
+        { "name": "AWS - EC2, ECS, EKS, Lambda, S3 etc" },
+        { "name": "Kubernetes" },
+        { "name": "Open Search" },
+        { "name": "Helm" },
+        { "name": "Docker" },
+        { "name": "Jenkins" },
+        { "name": "Ansible" },
+        { "name": "Kong Gateway" },
+        { "name": "Open Telemetry" },
+        { "name": "Jaeger" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "welcome": "Welcome to my workspace",
+    "greeting": "Hi, I'm",
+    "subtitle": "Full Stack Engineer & AI Specialist",
+    "description": "Building the next generation of intelligent, user-centric web applications.",
+    "viewWork": "View My Work",
+    "downloadCv": "Download Resume",
+    "scrollDown": "Scroll Down"
+  },
+  "section": {
+    "heading": "About Me",
+    "nameLabel": "Name",
+    "titleLabel": "Title",
+    "aboutLabel": "About",
+    "educationLabel": "Education",
+    "skillsLabel": "Skills",
+    "socialLabel": "Connect",
+    "experienceText": "Professional Experience"
+  },
+  "name": "Kiran Avinash Sode",
+  "title": "AI & Forward-Deployed Engineering",
+  "bioParagraphs": [
+    "I move quickly from rough ideas to working AI systems, then do the engineering needed to make them reliable. I work with stakeholders to turn business needs into technical direction, iterating quickly toward systems that can make it to production and stay there."
+  ],
+  "metrics": [
+    { "label": "Years Experience", "value": "5+", "description": "Building Enterprise Apps" },
+    { "label": "Projects Completed", "value": "10+", "description": "Shipped to production" },
+    { "label": "AI Integrations", "value": "5+", "description": "LLMs Workflows" }
+  ],
+  "socialLinks": [
+    { "platform": "GitHub", "url": "https://github.com/sodekiranavinash", "iconName": "GitBranch" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/sode-kiran-avinash", "iconName": "Link" }
+  ]
+}

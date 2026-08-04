@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "recommendations": "Recommendations",
+    "contact": "Contact",
+    "skills": "Skills"
+  },
+  "footer": {
+    "tagline": "Crafted with precision. Built to scale.",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "section": {
+    "heading": "Professional Experience",
+    "description": "A compact overview of the teams I've helped build, the products I've shipped, and the measurable outcomes I've delivered.",
+    "readMore": "Read more",
+    "close": "Close",
+    "roleAndResponsibilities": "Role & Responsibilities",
+    "projects": "Projects"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "Senior Full Stack Engineer, AI Systems",
+      "organization": "S&P Energy",
+      "period": "2024 - Present",
+      "description": [
+        "Led the architecture and delivery of Pitch Intel, a sales pitch generation platform integrating LLM-driven content workflows.",
+        "Outlined Rapid MCP and Chat AI modules to improve cross-team automation, analytics, and user adoption.",
+        "Delivered Coverage API for the developer portal and CFS integrations, improving internal developer velocity and reporting accuracy."
+      ],
+      "tags": ["React", "TypeScript", "Node.js", "OpenAI", "AWS", "GraphQL"],
+      "roleAndResponsibilities": [
+        "Directed feature development for sales enablement and automation across multiple product lines.",
+        "Designed microservices and event-driven APIs to support rapidly evolving enterprise workflows.",
+        "Partnered with product and design to create readable dashboards with clear developer and analyst outcomes."
+      ],
+      "projectHighlights": [
+        "Pitch Intel: Scaled AI service to multi-tenant operations and reduced processing latency by 32%.",
+        "Rapid MCP & Chat AI: Built UI architecture for real-time insights and cross-team automation.",
+        "Coverage API: Improved internal developer velocity and reporting accuracy for CFS integrations."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "Technical Lead, Automation Platform",
+      "organization": "Genpact",
+      "period": "2022 - 2024",
+      "description": [
+        "Built Forge, a batch processing engine used across distributed data pipelines and operational reporting.",
+        "Ownership of architecture diagrams, integration patterns, and deployment automation for enterprise clients."
+      ],
+      "tags": ["Python", "FastAPI", "Kubernetes", "Docker", "PostgreSQL"],
+      "roleAndResponsibilities": [
+        "Led the engineering effort to standardize batch processing across multiple lines of business.",
+        "Created reusable pipeline templates and observability dashboards for performance monitoring.",
+        "Delivered training and architecture documentation to support partner handoff and maintenance."
+      ],
+      "projectHighlights": [
+        "Forge: Improved batch throughput by 45% across distributed data pipelines.",
+        "Automation Platform: Automated end-to-end release pipelines for enterprise clients.",
+        "Documented platform design and integration patterns for global teams."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "Senior Software Engineer, Product Integrations",
+      "organization": "Creditsafe",
+      "period": "2020 - 2022",
+      "description": [
+        "Built Ledger Insights and Global DET, a developer editing tool for data corrections and reporting.",
+        "Collaborated with cross-functional teams to deliver data accuracy, audit traces, and a strong user experience."
+      ],
+      "tags": ["React", "TypeScript", "Redux", "REST APIs", "Azure"],
+      "roleAndResponsibilities": [
+        "Shipped an end-to-end workflow for data ingestion, validation, and verification.",
+        "Built reusable UI components and secure integration patterns for enterprise clients.",
+        "Supported iterative releases with A/B testing and feature flagging."
+      ],
+      "projectHighlights": [
+        "Ledger Insights: Delivered tooling for enterprise data teams and reduced reconciliation errors by 28%.",
+        "Global DET: Built cohesive platform UX for developer data correction workflows.",
+        "Shipped secure integration patterns and audit trace capabilities for enterprise clients."
+      ]
+    }
+  ]
+}

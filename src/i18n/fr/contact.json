@@ -1,0 +1,27 @@
+{
+  "section": {
+    "heading": "Get In Touch",
+    "subheading": "Let's connect",
+    "connectHeading": "Let's connect",
+    "connectText": "I'm always open to discussing new AI products, platform work, or collaborative opportunities.",
+    "emailLabel": "Email",
+    "locationLabel": "Location",
+    "phoneLabel": "Phone",
+    "nameLabel": "Your Name",
+    "emailFieldLabel": "Email Address",
+    "messageLabel": "Your Message",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "Let's build something awesome...",
+    "sendMessage": "Send Message",
+    "messageSent": "Message Sent!"
+  },
+  "email": "alex.morgan@example.com",
+  "location": "San Francisco, CA (Open to Remote)",
+  "phone": "+1 (555) 019-2834",
+  "githubUrl": "https://github.com",
+  "linkedinUrl": "https://linkedin.com",
+  "twitterUrl": "https://twitter.com",
+  "formActionUrl": "https://formspree.io/f/placeholder",
+  "placeholderMessage": "I'm always open to discussing new web apps, AI integrations, or contract opportunities. Feel free to reach out!"
+}

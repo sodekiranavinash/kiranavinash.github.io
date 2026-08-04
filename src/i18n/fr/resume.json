@@ -1,0 +1,30 @@
+{
+  "resumeUrl": "/resume.pdf",
+  "section": {
+    "eyebrow": "Resume Center",
+    "heading": "Resume & CV",
+    "subtitle": "Open the full resume preview or download a polished PDF copy for recruiters and hiring teams.",
+    "reviewOrDownload": "Review or Download",
+    "reviewResume": "Review Resume",
+    "downloadResume": "Download Resume",
+    "highlights": "Highlights",
+    "certifications": "Certifications & specializations",
+    "verifyCredential": "Verify credential"
+  },
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2025",
+      "credentialUrl": "https://aws.amazon.com"
+    },
+    {
+      "id": "cert-2",
+      "title": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta / Coursera",
+      "date": "2023",
+      "credentialUrl": "https://coursera.org"
+    }
+  ]
+}

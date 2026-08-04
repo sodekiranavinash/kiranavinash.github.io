@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Academic Background",
+    "heading": "Education",
+    "description": "Degrees and programs that shaped my technical foundation and design thinking."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

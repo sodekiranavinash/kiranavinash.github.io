@@ -1,0 +1,62 @@
+{
+  "section": {
+    "heading": "Recommendations",
+    "description": "What colleagues and collaborators say about working together."
+  },
+  "items": [
+    {
+      "id": "rec-1",
+      "name": "Dylan Willis",
+      "profileUrl": "https://www.linkedin.com/in/dylan-willis-13148029",
+      "role": "Scrum Master & delivery lead",
+      "company": "Shutterfly LLC, USA",
+      "experience": "10+ years of experience",
+      "quote": "I had the pleasure of working with Avinash on the Shutterfly Lab Eng team, and he impressed me with his technical expertise, problem-solving skills, and collaborative approach. He has an ability to break down complex challenges and find practical solutions, making him a valuable asset to any engineering team. Beyond his technical capabilities, Avinash is a great team player—always open to feedback, eager to learn, and proactive in helping others. His positive attitude and dedication made a real impact on our team, and I have no doubt he will continue to excel in his career. I highly recommend Avinash to any organization looking for a skilled and reliable full-stack engineer. Best of luck, Kiran!"
+    },
+    {
+      "id": "rec-2",
+      "name": "Sunil Babu",
+      "profileUrl": "https://www.linkedin.com/in/sunilbhai/",
+      "role": "Cloud Architect & GenAI",
+      "company": "Genpact India - Shutterfly",
+      "experience": "25+ years of experience",
+      "quote": "I had the pleasure of working with Avinash and he possesses a strong command of Python, consistently delivering clean, efficient, and well-structured code. His ability to quickly grasp complex technical environments allows him to seamlessly integrate into projects and drive meaningful progress. With exceptional problem-solving skills, he not only resolves challenging issues but also optimises solutions, significantly enhancing team productivity and project success. I highly recommend Avinash for any role that demands strong Python development expertise. His adaptability, problem-solving mindset, and proficiency in integrating new technologies make him a valuable asset to any team."
+    },
+    {
+      "id": "rec-3",
+      "name": "Sourav Basu",
+      "profileUrl": "https://www.linkedin.com/in/srvbasu/",
+      "role": "Principal Engineer",
+      "company": "Genpact India - Shutterfly",
+      "experience": "16+ years of experience",
+      "quote": "I am delighted to write this recommendation for Avinash, with whom I have had the pleasure of working closely at Genpact. Throughout our time working together, Avinash has consistently demonstrated exceptional professionalism, technical expertise, and a strong commitment to delivering high-quality results. His strong problem-solving skills and deep understanding of system optimization enable him to deliver clean, efficient, and well-structured code consistently. I have no doubt that Avinash will be an asset to any team or organization. His dedication, problem-solving skills, and ability to drive projects forward make him stand out as a top professional. I wholeheartedly recommend him and would be happy to provide further details if needed."
+    },
+    {
+      "id": "rec-4",
+      "name": "Samrat Sen",
+      "profileUrl": "https://www.linkedin.com/in/samrat-sen-262751159/",
+      "role": "Database Engineer",
+      "company": "Creditsafe - LI Team",
+      "experience": "10+ years of experience",
+      "quote": "I had the pleasure of working with Avinash, and I was consistently impressed by his strong technical expertise and ability to deliver results, even under tight deadlines. Avinash consistently demonstrated a level of competence and I never viewed him as a junior developer, as he consistently anticipated challenges and took proactive steps to address them. His problem-solving abilities, coupled with his dedication to delivering high-quality work, make him a valuable asset to any team. I highly recommend Avinash as a full-stack developer. He is not only a skilled professional but also a dependable colleague who will contribute meaningfully to any organization."
+    },
+    {
+      "id": "rec-5",
+      "name": "Poonam G",
+      "profileUrl": "https://www.linkedin.com/in/poonam-ghutukade-5100ab155/",
+      "role": "Software Engineer",
+      "company": "Creditsafe - LI Team",
+      "experience": "7+ years of experience",
+      "quote": "I worked with Avinash on Creditsafe Technology's Ledger Insight project. He consistently demonstrated exceptional technical skills in designing user interfaces and analyzing complex data to deliver actionable insights. Avinash has a remarkable ability to solve challenging problems, build APIs, and innovate. I wish him the best for the future."
+    },
+    {
+      "id": "rec-6",
+      "name": "Uday Kumar",
+      "profileUrl": "https://www.linkedin.com/in/uday-kumar-59a10a227/",
+      "role": "Senior QA Engineer",
+      "company": "Creditsafe - LI Team",
+      "experience": "9+ years of experience",
+      "quote": "I had the pleasure of working with Avinash on Ledger Insights team and I was consistently impressed by his dedication, proactive approach, and team-oriented mindset. Avinash is a hardworking individual who not only delivers on his responsibilities but goes above and beyond to ensure the success of the team. His product mindset is exceptional, always focusing on delivering value to the user while keeping business objectives in sight."
+    }
+  ]
+}

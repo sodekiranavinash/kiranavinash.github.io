@@ -1,0 +1,277 @@
+{
+  "section": {
+    "heading": "Featured Work",
+    "personal": "Personal Projects",
+    "professional": "Professional Projects",
+    "live": "LIVE",
+    "architecture": "Architecture",
+    "readMore": "Read more",
+    "close": "Close",
+    "caseStudy": "Case Study",
+    "highlights": "Highlights",
+    "skills": "Skills"
+  },
+  "personal": [],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Sales Intelligence Platform built to cut down 50% work of sales team work.",
+      "bullets": [
+        "Gathers information from multiple sources like web search, opensearch vectorDB, company internal API's etc using tools",
+        "Also supports integration of any MCP server and its tools into current workflow.",
+        "Supports generation of sales pitch in text, HTML file , PPT file, etc based on user's choice."
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "Langchain/Langgraph"
+      ],
+      "allSkills": [
+        "FastAPI",
+        "React",
+        "Langchain/Langgraph",
+        "Crawl4AI",
+        "OS VectorDB",
+        "EKS",
+        "S3",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "Rapid MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Scalable MCP server built to transform 100's of api's into a single MCP without code change at application level.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "Chat AI MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "Dataset Coverage AI Agent",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    
+    {
+      "id": "prof-5",
+      "title": "Text2SQL AI Agent",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Database Viewer",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Global DET",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "",
+      "bullets": [
+        "Executes API's behind the scene with correct endpoints and params",
+        "scalable to 10-100-1000 api's "
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "Flask MVT",
+        "jQuery",
+        "AWS",
+        "MariaDB"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    }
+  ]
+}

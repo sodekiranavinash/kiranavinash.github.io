@@ -1,0 +1,78 @@
+{
+  "section": {
+    "heading": "Professional Experience",
+    "description": "A compact overview of the teams I've helped build, the products I've shipped, and the measurable outcomes I've delivered.",
+    "readMore": "Read more",
+    "close": "Close",
+    "roleAndResponsibilities": "Role & Responsibilities",
+    "projects": "Projects"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "Software Developer (AI)",
+      "organization": "S&P Energy",
+      "period": "Mar 2025 - Present",
+      "description": [
+        "Led development of Pitch Intel, a sales pitch generation platform integrating LLM-driven content workflows.",
+        "Designed and developed Rapid and Chat AI MCP servers which are consumed by clients like ms co-pilot, claude, databricks etc",
+        "Developed and Integrated Dataset Coverage AI Agent for the developer portal and subscription manager chatbots."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Played the role of lead developer and guided a team of 5 members in technical aspects",
+        "Always took complete end-to-end ownership of product from POC to Production including design, develoment, testing and deployment.",
+        "Initiated amd integrated security practices like mend scan,fortify scan, sonarqube scan, git repo secret scan and claude scan etc to improve the security of the codebase."
+      ],
+      "projectHighlights": [
+        "Led development of Pitch Intel, an innovative sales pitch generation platform integrating LLM-driven content workflows.",
+        "Architected Rapid and Chat AI MCP servers which are consumed by clients like ms co-pilot, claude, databricks etc",
+        "Developed and Integrated Dataset Coverage AI Agent for the developer portal and subscription manager chatbots."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "Consultant - Full Stack Engineer",
+      "organization": "Genpact",
+      "period": "Mar 2025 - Feb 2024",
+      "description": [
+        "Developed Text2SQL AI Agent for querying customer data which saved 50% time for company's product team.",
+        "Built Forge, a heavy batch processing engine replacing old workflow which improved the press jobs throughput by 50%.",
+        "Architectured and developed database viewer for mnesia db which saved company 10K $ per breakdown incidents."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Played the role of module lead and guided a team of 3 members in technical aspects such as modernization of codebase, cloud native solutions and GenAI initiatives etc.",
+        "Took initiative as one of the earliest client teams to implement GenAI initiatives beyond POC stages and into production.",
+        "Shared pagerDuty responsibilities with the team and took care of the on-call rotations."
+      ],
+      "projectHighlights": [
+        "Developed TEXT2SQL agent for querying customer data which saved 50% time for company's product team.",
+        "Built Forge, a heavy batch processing engine replacing old workflow which improved the press jobs throughput by 50%.",
+        "Architectured and developed database viewer for mnesia db which saved company 10K $ per breakdown incidents."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "Jr Full Stack Engineer",
+      "organization": "Creditsafe",
+      "period": "Feb 2024 - Oct 2021",
+      "description": [
+        "Significant contributions to end-to-end redesign, reskin and redevelopment of ledger insights product which improved sales by 2X",
+        "Developed various complex features which attracted customers and generated over 500k $ in revenue",
+        "Developed Global Data editing tool for correcting redundant/incorrect customer data instantly which increased data accuracy from 90% to 97%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "I played the role of developer in migration team where i have made major contributions to development of new critical microservices using modern tech stack.",
+        "Proactively took initiatives to ensure code quality, performance and security of the codebase by scheduling regular code reviews, pair programming and knowledge sharing sessions.",
+        "Always ensured documentation and architecture wiki pages are up to date and accessible to the team."
+      ],
+      "projectHighlights": [
+        "Ledger Insights: Delivered tooling for enterprise data teams and reduced reconciliation errors by 28%.",
+        "Global DET: Built cohesive platform UX for developer data correction workflows.",
+        "Shipped secure integration patterns and audit trace capabilities for enterprise clients."
+      ]
+    }
+  ]
+}

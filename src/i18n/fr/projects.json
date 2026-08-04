@@ -1,0 +1,126 @@
+{
+  "section": {
+    "heading": "Featured Work",
+    "personal": "Personal Projects",
+    "professional": "Professional Projects",
+    "live": "LIVE",
+    "architecture": "Architecture",
+    "readMore": "Read more",
+    "close": "Close",
+    "caseStudy": "Case Study",
+    "highlights": "Highlights",
+    "skills": "Skills"
+  },
+  "personal": [
+    {
+      "id": "personal-1",
+      "title": "Terminal Portfolio Studio",
+      "category": "personal",
+      "summary": "A terminal-inspired portfolio experience with modern animations and contextual command-line styling.",
+      "bullets": [
+        "Custom terminal UI with gradient highlights and code-like headings.",
+        "Responsive layout built for polished reader engagement."
+      ],
+      "liveUrl": "https://example.com/terminal-portfolio",
+      "architectureUrl": "https://example.com/terminal-portfolio-architecture",
+      "fullDetails": [
+        "Designed a command-line aesthetic.",
+        "Built reusable components and modal dialogs."
+      ],
+      "topSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "allSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Framer Motion"
+      ]
+    },
+    {
+      "id": "personal-2",
+      "title": "AI Workflow Explorer",
+      "category": "personal",
+      "summary": "An interactive workflow manager that visualizes intelligent pipelines and agent behavior.",
+      "bullets": [
+        "Visual task sequencing with lightweight module previews.",
+        "AI model orchestration interface for quick experimentation."
+      ],
+      "liveUrl": "https://example.com/ai-workflow-explorer",
+      "architectureUrl": "https://example.com/ai-workflow-architecture",
+      "fullDetails": [
+        "Exploratory interface for workflow authors.",
+        "Real-time preview cards and analytics sidebar."
+      ],
+      "topSkills": [
+        "React",
+        "D3",
+        "Node.js"
+      ],
+      "allSkills": [
+        "React",
+        "D3",
+        "Node.js",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "personal-3",
+      "title": "Intelligent Notes CLI",
+      "category": "personal",
+      "summary": "A productivity tool that blends terminal-style interaction with note-taking and quick search.",
+      "bullets": [
+        "Command-driven shortcuts for project journaling.",
+        "Offline persistence and search-ready metadata."
+      ],
+      "liveUrl": "https://example.com/intelligent-notes-cli",
+      "architectureUrl": "https://example.com/intelligent-notes-architecture",
+      "fullDetails": [
+        "CLI-first notes for fast keyboard navigation.",
+        "Offline-first design with compact UI."
+      ],
+      "topSkills": [
+        "React",
+        "Tailwind",
+        "Local Storage"
+      ],
+      "allSkills": [
+        "React",
+        "Tailwind",
+        "Local Storage"
+      ]
+    }
+  ],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Sales pitch generation platform powered by intelligent template orchestration.",
+      "bullets": [
+        "LLM-backed pitch generation with performance insights.",
+        "Company-specific content controls and review workflows."
+      ],
+      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "fullDetails": [
+        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
+        "Improved content accuracy through brand tokens and company-specific content controls.",
+        "Built review workflows enabling sales managers to approve and refine generated pitches.",
+        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+      ],
+      "topSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ],
+      "allSkills": [
+        "React",
+        "OpenAI",
+        "AWS"
+      ]
+    }
+  ]
+}
