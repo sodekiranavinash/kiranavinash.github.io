@@ -2,8 +2,8 @@ import React from 'react';
 import { useTheme } from '../../context/ThemeContext';
 
 const AVATAR_BY_THEME = {
-  dark: '/photo_black.png',
-  light: '/photo_white.png',
+  dark: `${import.meta.env.BASE_URL}photo_black.png`,
+  light: `${import.meta.env.BASE_URL}photo_white.png`,
 } as const;
 
 interface AboutPortraitProps {

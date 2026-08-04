@@ -40,8 +40,14 @@ export interface ResumeContent {
 }
 
 export const resumeContentByLocale: Record<Locale, ResumeContent> = {
-  en: enResume as ResumeContent,
-  fr: frResume as ResumeContent,
+  en: {
+    ...(enResume as ResumeContent),
+    resumeUrl: `${import.meta.env.BASE_URL}${(enResume as ResumeContent).resumeUrl.replace(/^\//, '')}`,
+  },
+  fr: {
+    ...(frResume as ResumeContent),
+    resumeUrl: `${import.meta.env.BASE_URL}${(frResume as ResumeContent).resumeUrl.replace(/^\//, '')}`,
+  },
 };
 
 export const resumeContent: ResumeContent = resumeContentByLocale.en;
