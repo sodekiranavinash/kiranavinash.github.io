@@ -18,41 +18,46 @@
       "title": "Pitch Intel",
       "company": "S&P Energy",
       "category": "professional",
-      "summary": "Sales Intelligence Platform built to cut down 50% work of sales team work.",
+      "summary": "Sales Intelligence Agent (Sales Pitch, Custom workflows)",
       "bullets": [
-        "Gathers information from multiple sources like web search, opensearch vectorDB, company internal API's etc using tools",
-        "Also supports integration of any MCP server and its tools into current workflow.",
-        "Supports generation of sales pitch in text, HTML file , PPT file, etc based on user's choice."
+        "Developed Planner Agent and specialized sub-agents.",
+        "Built drag-and-drop UI to design agent workflows and map inputs.",
+        "Supports generation of sales pitch in text, HTML file , PPT file, etc"
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "For new/renewal of customers, sales team needs to manually gather a lot of data and prepare pitch deck.Sales team wants to cut down this time by using AI to generate the pitch.",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed Planner Agent and Multiple Sub-Agents (web search, current packages, pitch_generator, battlecards etc) which are integrated into a single workflow to generate a pitch.",
+        "Developed UI components for drag and drop of agents and their inputs to create a workflow.",
+        "Supports generation of sales pitch in text, HTML file , PPT file, etc based on user's choice.",
+        "Supports integration of any MCP server and its tools into current workflow."
       ],
       "topSkills": [
         "FastAPI",
         "React",
-        "Langchain/Langgraph"
-      ],
+        "LangGraph",
+        "EKS",
+        "SES",
+        "S3",
+        "PostgreSQL"
+        ],
       "allSkills": [
         "FastAPI",
         "React",
-        "Langchain/Langgraph",
+        "LangGraph",
         "Crawl4AI",
-        "OS VectorDB",
-        "EKS",
-        "S3",
-        "PostgreSQL"
+        "OpenSearch VectorDB",
+        "AWS EKS, SES, S3 etc",
+        "AgentCore Code Interpreter",
+        "PostgreSQL",
+        "Azure OpenAI"
       ]
     },
     {
       "id": "prof-2",
-      "title": "Rapid MCP",
+      "title": "Chat AI MCP",
       "company": "S&P Energy",
       "category": "professional",
-      "summary": "Scalable MCP server built to transform 100's of api's into a single MCP without code change at application level.",
+      "summary": "Customer facing MCP server (structured & unstructured data)",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -77,10 +82,11 @@
     },
     {
       "id": "prof-3",
-      "title": "Chat AI MCP",
+      "title": "RAPID MCP",
       "company": "S&P Energy",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Internal MCP server (structured data from rapid api's)",
+      
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -105,10 +111,10 @@
     },
     {
       "id": "prof-4",
-      "title": "Dataset Coverage AI Agent",
+      "title": "API Platform Works",
       "company": "S&P Energy",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Helm deployments, component upgrades, production releases etc",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -137,7 +143,7 @@
       "title": "Text2SQL AI Agent",
       "company": "Genpact",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Nautural Language to SQL (customer data analysis, Trends, Insights, etc)",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -162,10 +168,10 @@
     },
     {
       "id": "prof-6",
-      "title": "Database Viewer",
+      "title": "Mnesia DB Viewer",
       "company": "Genpact",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Web Application to manage mnesia db data (restore, backup, etc)",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -190,10 +196,10 @@
     },
     {
       "id": "prof-7",
-      "title": "Forge",
+      "title": "Forge Microservices",
       "company": "Genpact",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Microservices for Forge application (pdf generation, cutlines, templates etc)",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
@@ -221,27 +227,35 @@
       "title": "Ledger Insights",
       "company": "Creditsafe",
       "category": "professional",
-      "summary": "Customer facing mcp server built on top of spgci-pysdk which provides structured and unstructured data.",
+      "summary": "Creditor & debtor cash flow and trade groups",
       "bullets": [
         "Executes API's behind the scene with correct endpoints and params",
         "scalable to 10-100-1000 api's "
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Ledger Insights was built to overcome shortfalls of Ledger 3D platform which lacks Trade Groups, Reports, Accounts Receivable and Debtor payment trends etc.",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Made significant contributions to end-to-end redesign, reskin and redevelopment of ledger insights product.",
+        "Developed critical microservices to implement features like Trade Groups, Reports, Accounts Receivable and Debtor payment trends etc.",
+        "Designed and built UI components for best UI/UX experience along with complex charts and graphs.",
+        "Implemented CI/CD pipeline to automate the deployment of the product."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Fast API",
+        "React JS",
+        "AWS",
+        "Oracle DB",
+        "Docker"
       ],
       "allSkills": [
+        "Fast API",
+        ".NET",
         "React",
-        "OpenAI",
-        "AWS"
+        "AWS - ECS, lambda, S3 etc",
+        "Python",
+        "javaScript",
+        "SQLAlchemy",
+        "Oracle DB",
+        "Docker"
       ]
     },
     {
@@ -249,28 +263,33 @@
       "title": "Global DET",
       "company": "Creditsafe",
       "category": "professional",
-      "summary": "",
+      "summary": "Data Goverance & Data Quality Control",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+       
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Data provided by vendors are not always accurate and upto date. So the organization required a way to correct the data and improve data quality across all entities in a structured way.",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed a Flask MVT application on top of flask manager library to make edits to the data in a structured way which improved data accuracy from 90% to 97%.",
+        "Built Rest api's that are directly integrated into customer facing platforms that required additional data checks and edits.",
+        "Created a custom workflow using jinja templates, WTF forms and custom validation to create forms for each entity type.",
+        "Developed and integrated a airflow DAG to extract edited data and upload to S3 to further process into prod redshift db."
       ],
       "topSkills": [
         "Flask MVT",
         "jQuery",
         "AWS",
-        "MariaDB"
+        "MariaDB",
+        "Terraform"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Flask MVT",
+        "jQuery",
+        "Python",
+        "javaScript",
+        "AWS - ECS, S3 etc",
+        "Terraform",
+        "MariaDB",
+        "Oracle DB"
       ]
     }
   ]

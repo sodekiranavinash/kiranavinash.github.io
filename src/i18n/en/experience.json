@@ -10,46 +10,47 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Software Developer (AI)",
+      "roleOrDegree": "Engineer II",
       "organization": "S&P Energy",
       "period": "Mar 2025 - Present",
       "description": [
-        "Led development of Pitch Intel, a sales pitch generation platform integrating LLM-driven content workflows.",
-        "Designed and developed Rapid and Chat AI MCP servers which are consumed by clients like ms co-pilot, claude, databricks etc",
-        "Developed and Integrated Dataset Coverage AI Agent for the developer portal and subscription manager chatbots."
+        "Currently developing Sales Intelligence Platform integrating LLM-driven content workflows.",
+        "Developed Rapid and Chat AI MCP servers as dellivery method for structured and unstructured data to customers.",
+        "Migrated legacy manifest applications to helm, proactively upgraded kubernetes components to reduce image vulnerabilities."
       ],
       "tags": [],
       "roleAndResponsibilities": [
-        "Played the role of lead developer and guided a team of 5 members in technical aspects",
-        "Always took complete end-to-end ownership of product from POC to Production including design, develoment, testing and deployment.",
-        "Initiated amd integrated security practices like mend scan,fortify scan, sonarqube scan, git repo secret scan and claude scan etc to improve the security of the codebase."
-      ],
+      "Worked as a Forward Deployed Engineer, partnering with teams to take AI solutions from POC to production.",
+      "Owned products end-to-end across design, development, testing, and deployment.",
+      "Drove security improvements by integrating Mend, Fortify, SonarQube, secret scanning, and Claude scans."
+    ],
       "projectHighlights": [
-        "Led development of Pitch Intel, an innovative sales pitch generation platform integrating LLM-driven content workflows.",
-        "Architected Rapid and Chat AI MCP servers which are consumed by clients like ms co-pilot, claude, databricks etc",
-        "Developed and Integrated Dataset Coverage AI Agent for the developer portal and subscription manager chatbots."
+        "Currently developing sales intelligence platform for commercial team which provides sales pitches in form of textual, infographics, html, pdf , ppt etc using various public information, proprietary data and previous history etc which cuts sales team work by 50%.",
+        "Led the development of Chat AI MCP Server built on top of spgci pysdk library , data is retrived by executing code written by llm clients(ms copilot, claude, databricks etc).",
+        "Led the development of RAPID MCP Server built on top of rapid api's manifest, data is delivered  by executing actual api's with queries formed by llm clients and is now widely used in internal AI applications.",
+        "As part of API Platform Team , I have converted old manifest applications into helm based applications, proactively upgraded kubernetes components (otel, data prepper, jaeger etc ) to bring image vulnerabilities to minimal and also have driven multiple production releases."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Full Stack Engineer",
+      "roleOrDegree": "Consultant - Shutterfly, USA",
       "organization": "Genpact",
       "period": "Mar 2025 - Feb 2024",
       "description": [
-        "Developed Text2SQL AI Agent for querying customer data which saved 50% time for company's product team.",
-        "Built Forge, a heavy batch processing engine replacing old workflow which improved the press jobs throughput by 50%.",
-        "Architectured and developed database viewer for mnesia db which saved company 10K $ per breakdown incidents."
+        "Built a Text2SQL AI Agent for customer data analysis, improving efficiency and reducing data-team dependency by 25%.",
+        "Built a Mnesia DB management system for data correction and recovery, saving $10K per incident",
+        "Built microservices for Forge batching applications, increasing press batching capacity and improving workflow by 50%."
       ],
       "tags": [],
       "roleAndResponsibilities": [
-        "Played the role of module lead and guided a team of 3 members in technical aspects such as modernization of codebase, cloud native solutions and GenAI initiatives etc.",
-        "Took initiative as one of the earliest client teams to implement GenAI initiatives beyond POC stages and into production.",
-        "Shared pagerDuty responsibilities with the team and took care of the on-call rotations."
+        "Led a team of 3 developers across codebase modernization, cloud-native solutions, and GenAI initiatives.",
+        "Pioneered production adoption of GenAI initiatives, taking solutions beyond POCs.",
+        "Shared PagerDuty ownership and managed on-call rotations for production support."
       ],
       "projectHighlights": [
-        "Developed TEXT2SQL agent for querying customer data which saved 50% time for company's product team.",
-        "Built Forge, a heavy batch processing engine replacing old workflow which improved the press jobs throughput by 50%.",
-        "Architectured and developed database viewer for mnesia db which saved company 10K $ per breakdown incidents."
+        "Developed Text2SQL AI Agent to query and analyze customer data like order history, complaints, product types etc which improved efficiency and reduced dependency on data teams by 25%.",
+        "Developed database management system for mnesia db which helped in data correction & restoration in case of bad upstream asset or order data which helped company 10K $ per incident.",
+        "Built microservices (pdf generation, cutlines, templates etc) for Forge batching applications, increasing press batching capacity and improving workflow by 50%."
       ]
     },
     {
@@ -58,20 +59,20 @@
       "organization": "Creditsafe",
       "period": "Feb 2024 - Oct 2021",
       "description": [
-        "Significant contributions to end-to-end redesign, reskin and redevelopment of ledger insights product which improved sales by 2X",
-        "Developed various complex features which attracted customers and generated over 500k $ in revenue",
-        "Developed Global Data editing tool for correcting redundant/incorrect customer data instantly which increased data accuracy from 90% to 97%."
+        "Key contributor to migrating Ledger Insights from legacy .NET to a modern Python, React, AWS, and PostgreSQL stack.",
+        "Built critical microservices and scalable UI components, supporting B2B deals worth $500K.",
+        "Built a Data Editing Tool for governance teams, improving company data quality from 88% to 98%."
       ],
       "tags": [],
       "roleAndResponsibilities": [
-        "I played the role of developer in migration team where i have made major contributions to development of new critical microservices using modern tech stack.",
-        "Proactively took initiatives to ensure code quality, performance and security of the codebase by scheduling regular code reviews, pair programming and knowledge sharing sessions.",
-        "Always ensured documentation and architecture wiki pages are up to date and accessible to the team."
+        "Collaborated across engineering and product teams to deliver scalable, production-ready solutions.",
+        "Proactively drove code quality, performance, and security through code reviews, pair programming, and knowledge sharing.",
+        "Maintained technical documentation and architecture wikis to improve team alignment and knowledge sharing."
       ],
       "projectHighlights": [
-        "Ledger Insights: Delivered tooling for enterprise data teams and reduced reconciliation errors by 28%.",
-        "Global DET: Built cohesive platform UX for developer data correction workflows.",
-        "Shipped secure integration patterns and audit trace capabilities for enterprise clients."
+        "Played key role in migration of ledger insights platform from legacy .NET to Modern Stack (Python, React, AWS, Postgres).",
+        "Developed critical microservices (AR Requests, CFO reports, Combined experience etc) along with scalable frontend components, pages which helped secured B2B deals worth 500k $.",
+        "Developed Data Editing Tool for data governance teams in all entities to rectify incorrect and redundant company data.(Improved data quality from 88% to 98%)."
       ]
     }
   ]
