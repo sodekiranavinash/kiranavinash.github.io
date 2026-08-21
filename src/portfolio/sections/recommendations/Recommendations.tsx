@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { getRecommendationsContent } from '../../content/recommendations';
+import { getCommonContent } from '../../content/common';
 import { useLocale } from '@shared/context/ThemeContext';
 import { Container } from '@shared/ui/Container';
 import { Section } from '@shared/ui/Section';
@@ -86,7 +87,7 @@ export const Recommendations: React.FC = () => {
             type="button"
             onClick={() => setIndex((prev) => Math.max(prev - SCROLL_STEP, 0))}
             disabled={!canGoPrev}
-            aria-label="Previous recommendation"
+            aria-label={t.previous}
             className={arrowButtonClass(canGoPrev)}
           >
             <ChevronLeft className="h-5 w-5" strokeWidth={2.25} />
@@ -105,6 +106,10 @@ export const Recommendations: React.FC = () => {
                   key={item.id}
                   item={item}
                   number={itemIndex + 1}
+                  profileAriaLabel={getCommonContent(locale).a11y.viewLinkedInProfile.replace(
+                    '{name}',
+                    item.name,
+                  )}
                   style={cardWidth !== null ? { width: cardWidth, minWidth: cardWidth } : undefined}
                 />
               ))}
@@ -115,7 +120,7 @@ export const Recommendations: React.FC = () => {
             type="button"
             onClick={() => setIndex((prev) => Math.min(prev + SCROLL_STEP, maxIndex))}
             disabled={!canGoNext}
-            aria-label="Next recommendation"
+            aria-label={t.next}
             className={arrowButtonClass(canGoNext)}
           >
             <ChevronRight className="h-5 w-5" strokeWidth={2.25} />

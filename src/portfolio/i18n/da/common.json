@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "Om mig",
+    "experience": "Erfaring",
+    "projects": "Projekter",
+    "recommendations": "Anbefalinger",
+    "skills": "Kompetencer"
+  },
+  "footer": {
+    "tagline": "Disciplin skaber frihed",
+    "rights": "Alle rettigheder forbeholdes.",
+    "privacyPolicy": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret",
+    "back": "Tilbage"
+  },
+  "a11y": {
+    "selectLanguage": "Vælg sprog",
+    "toggleTheme": "Skift tema",
+    "toggleMenu": "Åbn menu",
+    "closeModal": "Luk vindue",
+    "previousRecommendation": "Forrige anbefaling",
+    "nextRecommendation": "Næste anbefaling",
+    "viewLinkedInProfile": "Se {name}s LinkedIn-profil"
+  }
+}

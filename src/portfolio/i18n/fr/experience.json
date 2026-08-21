@@ -1,75 +1,78 @@
 {
   "section": {
-    "heading": "Professional Experience",
-    "description": "A compact overview of the teams I've helped build, the products I've shipped, and the measurable outcomes I've delivered.",
-    "readMore": "Read more",
-    "close": "Close",
-    "roleAndResponsibilities": "Role & Responsibilities",
-    "projects": "Projects"
+    "heading": "Expérience professionnelle",
+    "description": "Un aperçu compact des équipes que j'ai aidé à construire, des produits que j'ai livrés et des résultats mesurables que j'ai obtenus.",
+    "readMore": "Lire plus",
+    "close": "Fermer",
+    "roleAndResponsibilities": "Rôle et responsabilités",
+    "projects": "Projets"
   },
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Senior Full Stack Engineer, AI Systems",
+      "roleOrDegree": "Engineer II",
       "organization": "S&P Energy",
-      "period": "2024 - Present",
+      "period": "mars 2025 - présent",
       "description": [
-        "Led the architecture and delivery of Pitch Intel, a sales pitch generation platform integrating LLM-driven content workflows.",
-        "Outlined Rapid MCP and Chat AI modules to improve cross-team automation, analytics, and user adoption.",
-        "Delivered Coverage API for the developer portal and CFS integrations, improving internal developer velocity and reporting accuracy."
+        "Je développe actuellement une plateforme d'intelligence commerciale intégrant des workflows de contenu pilotés par LLM.",
+        "J'ai développé les serveurs MCP Rapid et Chat AI comme mode de livraison de données structurées et non structurées aux clients.",
+        "J'ai migré des applications manifest héritées vers Helm et mis à niveau de façon proactive les composants Kubernetes pour réduire les vulnérabilités des images."
       ],
-      "tags": ["React", "TypeScript", "Node.js", "OpenAI", "AWS", "GraphQL"],
+      "tags": [],
       "roleAndResponsibilities": [
-        "Directed feature development for sales enablement and automation across multiple product lines.",
-        "Designed microservices and event-driven APIs to support rapidly evolving enterprise workflows.",
-        "Partnered with product and design to create readable dashboards with clear developer and analyst outcomes."
+        "J'ai travaillé comme Forward Deployed Engineer, en partenariat avec les équipes pour passer des solutions IA du POC à la production.",
+        "J'ai porté des produits de bout en bout : conception, développement, tests et déploiement.",
+        "J'ai accéléré les améliorations de sécurité en intégrant Mend, Fortify, SonarQube, le scan de secrets et les scans Claude."
       ],
       "projectHighlights": [
-        "Pitch Intel: Scaled AI service to multi-tenant operations and reduced processing latency by 32%.",
-        "Rapid MCP & Chat AI: Built UI architecture for real-time insights and cross-team automation.",
-        "Coverage API: Improved internal developer velocity and reporting accuracy for CFS integrations."
+        "Je développe actuellement une plateforme d'intelligence commerciale pour l'équipe commerciale, qui fournit des argumentaires sous forme de texte, d'infographies, HTML, PDF, PPT, etc., à partir d'informations publiques, de données propriétaires et de l'historique, ce qui réduit le travail de l'équipe commerciale d'environ 50 %.",
+        "J'ai dirigé le développement du serveur MCP Chat AI, bâti sur la bibliothèque spgci pysdk ; les données sont récupérées en exécutant du code écrit par des clients LLM (MS Copilot, Claude, Databricks, etc.).",
+        "J'ai dirigé le développement du serveur MCP RAPID, bâti sur le manifeste des API Rapid ; les données sont livrées en exécutant les API réelles avec des requêtes formées par des clients LLM, désormais largement utilisées dans les applications IA internes.",
+        "Au sein de l'équipe API Platform, j'ai converti d'anciennes applications manifest en applications Helm, mis à niveau de façon proactive les composants Kubernetes (OTel, Data Prepper, Jaeger, etc.) pour ramener les vulnérabilités d'images au minimum, et piloté plusieurs mises en production."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Technical Lead, Automation Platform",
+      "roleOrDegree": "Consultant - Shutterfly, USA",
       "organization": "Genpact",
-      "period": "2022 - 2024",
+      "period": "mars 2025 - févr. 2024",
       "description": [
-        "Built Forge, a batch processing engine used across distributed data pipelines and operational reporting.",
-        "Ownership of architecture diagrams, integration patterns, and deployment automation for enterprise clients."
+        "J'ai construit un agent IA Text2SQL pour l'analyse des données clients, améliorant l'efficacité et réduisant la dépendance à l'équipe data de 25 %.",
+        "J'ai construit un système de gestion Mnesia DB pour la correction et la récupération des données, économisant 10 000 $ par incident.",
+        "J'ai construit des microservices pour les applications de batching Forge, augmentant la capacité de batching presse et améliorant le workflow de 50 %."
       ],
-      "tags": ["Python", "FastAPI", "Kubernetes", "Docker", "PostgreSQL"],
+      "tags": [],
       "roleAndResponsibilities": [
-        "Led the engineering effort to standardize batch processing across multiple lines of business.",
-        "Created reusable pipeline templates and observability dashboards for performance monitoring.",
-        "Delivered training and architecture documentation to support partner handoff and maintenance."
+        "J'ai dirigé une équipe de 3 développeurs sur la modernisation du code, des solutions cloud-native et des initiatives GenAI.",
+        "J'ai initié l'adoption en production des initiatives GenAI, au-delà des POC.",
+        "J'ai partagé la responsabilité PagerDuty et géré les rotations d'astreinte pour le support production."
       ],
       "projectHighlights": [
-        "Forge: Improved batch throughput by 45% across distributed data pipelines.",
-        "Automation Platform: Automated end-to-end release pipelines for enterprise clients.",
-        "Documented platform design and integration patterns for global teams."
+        "J'ai développé un agent IA Text2SQL pour interroger et analyser les données clients (historique de commandes, réclamations, types de produits, etc.), ce qui a amélioré l'efficacité et réduit la dépendance aux équipes data de 25 %.",
+        "J'ai développé un système de gestion pour Mnesia DB, utile pour la correction et la restauration en cas de mauvaises données amont d'assets ou de commandes, ce qui a aidé l'entreprise à hauteur de 10 000 $ par incident.",
+        "J'ai construit des microservices (génération PDF, cutlines, templates, etc.) pour les applications de batching Forge, augmentant la capacité et améliorant le workflow de 50 %."
       ]
     },
     {
       "id": "exp-3",
-      "roleOrDegree": "Senior Software Engineer, Product Integrations",
+      "roleOrDegree": "Ingénieur full stack junior",
       "organization": "Creditsafe",
-      "period": "2020 - 2022",
+      "period": "févr. 2024 - oct. 2021",
       "description": [
-        "Built Ledger Insights and Global DET, a developer editing tool for data corrections and reporting.",
-        "Collaborated with cross-functional teams to deliver data accuracy, audit traces, and a strong user experience."
+        "Contributeur clé à la migration de Ledger Insights d'un héritage .NET vers une stack moderne Python, React, AWS et PostgreSQL.",
+        "J'ai construit des microservices critiques et des composants UI scalables, soutenant des deals B2B d'une valeur de 500 000 $.",
+        "J'ai construit un outil d'édition de données pour les équipes de gouvernance, faisant passer la qualité des données de 88 % à 98 %."
       ],
-      "tags": ["React", "TypeScript", "Redux", "REST APIs", "Azure"],
+      "tags": [],
       "roleAndResponsibilities": [
-        "Shipped an end-to-end workflow for data ingestion, validation, and verification.",
-        "Built reusable UI components and secure integration patterns for enterprise clients.",
-        "Supported iterative releases with A/B testing and feature flagging."
+        "J'ai collaboré avec les équipes engineering et produit pour livrer des solutions scalables, prêtes pour la production.",
+        "J'ai poussé de façon proactive la qualité du code, la performance et la sécurité via revues de code, pair programming et partage de connaissances.",
+        "J'ai maintenu la documentation technique et les wikis d'architecture pour améliorer l'alignement et le partage de connaissances."
       ],
       "projectHighlights": [
-        "Ledger Insights: Delivered tooling for enterprise data teams and reduced reconciliation errors by 28%.",
-        "Global DET: Built cohesive platform UX for developer data correction workflows.",
-        "Shipped secure integration patterns and audit trace capabilities for enterprise clients."
+        "J'ai joué un rôle clé dans la migration de Ledger Insights d'un héritage .NET vers une stack moderne (Python, React, AWS, Postgres).",
+        "J'ai développé des microservices critiques (demandes AR, rapports CFO, expérience combinée, etc.) ainsi que des composants et pages frontend scalables, ce qui a aidé à sécuriser des deals B2B de 500 000 $.",
+        "J'ai développé un outil d'édition de données pour les équipes de gouvernance dans toutes les entités, afin de corriger des données d'entreprise incorrectes et redondantes (qualité des données passée de 88 % à 98 %)."
       ]
     }
   ]

@@ -1,0 +1,123 @@
+{
+  "section": {
+    "eyebrow": "Kärnstyrkor",
+    "heading": "Kompetenser och expertis",
+    "description": "Verktygen, plattformarna och disciplinerna jag använder för att leverera genomarbetade, produktionsklara upplevelser."
+  },
+  "categories": [
+    {
+      "categoryName": "AI",
+      "skills": [
+        {
+          "name": "Prompt Engineering"
+        },
+        {
+          "name": "RAG"
+        },
+        {
+          "name": "A2A Communication"
+        },
+        {
+          "name": "Multi-Agent Systems"
+        },
+        {
+          "name": "MCP"
+        },
+        {
+          "name": "AI Evaluation"
+        },
+        {
+          "name": "Lang Chain"
+        },
+        {
+          "name": "Langraph"
+        },
+        {
+          "name": "OpenSearch Vector DB"
+        }
+      ]
+    },
+    {
+      "categoryName": "Full stack",
+      "skills": [
+        {
+          "name": "FastAPI"
+        },
+        {
+          "name": "React JS"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "SQL"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "Oracle DB"
+        },
+        {
+          "name": "MariaDB"
+        },
+        {
+          "name": "Flask MVT"
+        },
+        {
+          "name": "Golang(basics)"
+        },
+        {
+          "name": ".NET(basics)"
+        }
+      ]
+    },
+    {
+      "categoryName": "Moln och infra",
+      "skills": [
+        {
+          "name": "AWS - EC2, ECS, EKS, Lambda, S3, RDS, SES, etc"
+        },
+        {
+          "name": "Kubernetes"
+        },
+        {
+          "name": "Open Search"
+        },
+        {
+          "name": "Helm"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Jenkins"
+        },
+        {
+          "name": "Ansible"
+        },
+        {
+          "name": "Kong API Gateway"
+        },
+        {
+          "name": "Open Telemetry"
+        },
+        {
+          "name": "Jaeger"
+        },
+        {
+          "name": "Goldilocks"
+        },
+        {
+          "name": "Grafana"
+        }
+      ]
+    }
+  ]
+}

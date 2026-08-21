@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Akademischer Hintergrund",
+    "heading": "Ausbildung",
+    "description": "Abschlüsse und Programme, die meine technische Grundlage und mein Design-Denken geprägt haben."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

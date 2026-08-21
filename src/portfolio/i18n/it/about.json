@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "welcome": "Benvenuto nel mio spazio di lavoro",
+    "greeting": "Ciao, sono",
+    "subtitle": "Ingegnere full stack e specialista di IA",
+    "description": "Costruisco la prossima generazione di applicazioni web intelligenti, centrate sull'utente.",
+    "viewWork": "Vedi i miei lavori",
+    "downloadCv": "Scarica il CV",
+    "scrollDown": "Scorri in basso"
+  },
+  "section": {
+    "heading": "Chi sono",
+    "nameLabel": "Nome",
+    "titleLabel": "Ruolo",
+    "aboutLabel": "Profilo",
+    "educationLabel": "Formazione",
+    "skillsLabel": "Competenze",
+    "socialLabel": "Contatti",
+    "experienceText": "Esperienza professionale"
+  },
+  "name": "Kiran Avinash Sode",
+  "title": "AI & Forward Deployed Engineering",
+  "bioParagraphs": [
+    "Passo rapidamente da idee grezze a sistemi di IA funzionanti, poi faccio l'ingegneria necessaria per renderli affidabili. Lavoro con gli stakeholder per trasformare le esigenze di business in direzione tecnica, iterando in fretta verso sistemi che possano arrivare in produzione e restarci."
+  ],
+  "metrics": [
+    {
+      "label": "Anni di esperienza",
+      "value": "5+",
+      "description": "App enterprise"
+    },
+    {
+      "label": "Progetti completati",
+      "value": "10+",
+      "description": "Rilasciati in produzione"
+    },
+    {
+      "label": "Integrazioni IA",
+      "value": "5+",
+      "description": "Workflow LLM"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sodekiranavinash",
+      "iconName": "GitBranch"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sode-kiran-avinash",
+      "iconName": "Link"
+    }
+  ],
+  "email": "kiranavinash.sode@gmail.com",
+  "emailLabel": "Email",
+  "connect": {
+    "text": "Sono sempre aperto a parlare di nuovi prodotti di IA, lavoro di piattaforma o collaborazioni."
+  }
+}

@@ -1,6 +1,6 @@
 import enEducation from '../i18n/en/education.json';
-import frEducation from '../i18n/fr/education.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface EducationItem {
   id: string;
@@ -22,14 +22,11 @@ export interface EducationContent {
   items: EducationItem[];
 }
 
-export const educationContentByLocale: Record<Locale, EducationContent> = {
-  en: enEducation as EducationContent,
-  fr: frEducation as EducationContent,
-};
+export const educationContentByLocale = loadNamespace<EducationContent>('education');
 
 export const getEducationContent = (locale?: Locale): EducationContent => {
   if (!locale || !educationContentByLocale[locale]) {
-    return educationContentByLocale.en;
+    return enEducation as EducationContent;
   }
   return educationContentByLocale[locale];
 };

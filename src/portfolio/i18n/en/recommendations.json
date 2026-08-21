@@ -1,7 +1,9 @@
 {
   "section": {
     "heading": "Recommendations",
-    "description": "What colleagues and collaborators say about working together."
+    "description": "What colleagues and collaborators say about working together.",
+    "previous": "Previous recommendation",
+    "next": "Next recommendation"
   },
   "items": [
     {

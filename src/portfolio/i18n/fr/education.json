@@ -1,16 +1,16 @@
 {
   "section": {
-    "eyebrow": "Academic Background",
-    "heading": "Education",
-    "description": "Degrees and programs that shaped my technical foundation and design thinking."
+    "eyebrow": "Parcours académique",
+    "heading": "Formation",
+    "description": "Les diplômes et programmes qui ont façonné mes bases techniques et ma façon de concevoir."
   },
   "items": [
     {
       "id": "edu-1",
       "degree": "Bachelor of Technology",
-      "organization": "Jawaharlal Nehru Technological University",
-      "period": "2019 - 2021",
-      "summary": "Specialized in AI systems, modern web architecture, and human-centered software design."
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Akademisk bakgrund",
+    "heading": "Utbildning",
+    "description": "Examina och program som format min tekniska grund och designtänkande."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

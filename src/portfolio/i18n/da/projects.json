@@ -1,0 +1,334 @@
+{
+  "section": {
+    "heading": "Udvalgt arbejde",
+    "personal": "Personlige projekter",
+    "professional": "Professionelle projekter",
+    "live": "LIVE",
+    "architecture": "Arkitektur",
+    "readMore": "Læs mere",
+    "close": "Luk",
+    "caseStudy": "Case study",
+    "highlights": "Højdepunkter",
+    "skills": "Kompetencer"
+  },
+  "personal": [],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Sales Intelligence Agent (sales pitch, custom workflows)",
+      "bullets": [
+        "Udviklede Planner Agent og specialiserede sub-agents.",
+        "Drag-and-drop-UI til at designe agent-workflows og mappe inputs.",
+        "Understøtter sales pitches i tekst, HTML, PPT m.m."
+      ],
+      "caseStudy": "Ved nye eller fornyede kunder skal salgsteamet manuelt samle meget data og lave et pitch deck. Teamet vil skære tiden ned med AI.",
+      "fullDetails": [
+        "Planner Agent og flere sub-agents (web search, nuværende packages, pitch_generator, battlecards m.m.) integreret i ét workflow til at generere et pitch.",
+        "UI-komponenter til drag-and-drop af agents og deres inputs for at skabe et workflow.",
+        "Generering af sales pitches i tekst, HTML-fil, PPT-fil m.m. efter brugerens valg.",
+        "Integration af enhver MCP-server og dens tools i det aktuelle workflow."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "EKS",
+        "SES",
+        "S3",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "Crawl4AI",
+        "OpenSearch VectorDB",
+        "AWS EKS, SES, S3 etc",
+        "AgentCore Code Interpreter",
+        "PostgreSQL",
+        "AzureOpenAI API"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "MCP Playground",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Agentic AI-playground til at teste og validere MCP-tools",
+      "bullets": [
+        "Designede og udviklede MCP-playground til at teste MCP-tools.",
+        "Viser events, mens tools eksekveres.",
+        "Consistency-modul til tests mod SME'ers spørgsmål."
+      ],
+      "caseStudy": "Virksomheden ville validere MCP-tools nøjagtighed og konsistens, før de gik i produktion.",
+      "fullDetails": [
+        "MCP-playground til at teste tools og validere eksekveringer multimodalt mod SME-spørgsmål.",
+        "Tilføj MCP-servers via UI og stream events, mens tools kører.",
+        "Consistency-modul til tests mod SME-spørgsmål med multimodal support."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "MCP Client",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "Chat AI MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Kundefacet MCP-server (strukturerede og ustrukturerede data)",
+      "bullets": [
+        "Kører LLM-genereret SPGCI PySDK-kode for at hente data.",
+        "MCP-tools med samme nøjagtighed og pålidelighed som Platts Chat AI.",
+        "Nem adgang til og onboarding af flere datasæt."
+      ],
+      "caseStudy": "Virksomheden ville tilbyde MCP som en service med samme nøjagtighed og pålidelighed som Platts Chat AI uden gentagen SME-evaluering af nye MCP-tools.",
+      "fullDetails": [
+        "5 MCP-tools (get_methods, get_method_details, execute, get_agentic_metadata, agentic_search) til at hente strukturerede og ustrukturerede data.",
+        "AWS AgentCore Code Interpreter til sikkert at køre LLM-genereret kode i et isoleret miljø.",
+        "Adgang til og onboarding af flere datasæt via URL-params og env-variabler."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL",
+        "AgentCore Code Interpreter"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "RAPID MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Intern MCP-server (strukturerede data fra Rapid API'er)",
+      "bullets": [
+        "MCP-løsning til at omdanne hundredvis af Rapid API'er til MCP-tools.",
+        "MCP-søgestrategi til at omgå begrænsninger i LLM-tools.",
+        "Søgning med reranking-API for at fremhæve relevante API'er."
+      ],
+      "caseStudy": "Rapid-microservices skabes med Rapid Automation og deployes. Virksomheden havde brug for et framework, der kan konvertere hundredvis af Rapid API'er til MCP-tools uden at røre microservicekoden.",
+      "fullDetails": [
+        "Rapid MCP-løsning med tools (instructions, search, get_unique_values, execute, utility_tools) til at omdanne hundredvis af Rapid API'er til eksekverbare og søgbare API'er uden kodeændring på microservice-niveau.",
+        "MCP-søgearkitektur til at omgå LLM-tool-begrænsninger ved at søge på tværs af Rapid API'er og reranke efter relevans.",
+        "Utility MCP-tools til at oprette csv-filer og markdown-billeder ud fra hentede data."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "Reranker API",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "prof-5",
+      "title": "Text2SQL AI Agent",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Naturligt sprog til SQL (kundedataanalyse, trends, indsigter)",
+      "bullets": [
+        "AI-agent der omdanner NL-spørgsmål til SQL for at hente data.",
+        "LangGraph nodes/edges-arkitektur med feedback-loop.",
+        "Data sampling, query sampling og SQLAlchemy-tools."
+      ],
+      "caseStudy": "Produktteamet var afhængigt af datateams til kundedata-indsigter og trends. Virksomheden ville bruge AI til at hente data og analysere trends via komplekse SQL-queries.",
+      "fullDetails": [
+        "AI-agent der omdanner NL-spørgsmål til SQL-queries for at hente info, indsigter og trends fra kundedata.",
+        "Med edges- og nodes-design automatiserer agenten SQL-fejlrettelsesloops.",
+        "Automatisk data sampling, query-eksempler og kolonneskrivelser forbedrer nøjagtighed og konsistens."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS",
+        "Oracle DB"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS - EC2",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Webapplikation til at styre Mnesia DB-data (restore, backup m.m.)",
+      "bullets": [
+        "Full stack-webapplikation til at styre Mnesia DB-data.",
+        "REST API'er til at opdatere Mnesia-rækker og skrive tilbage.",
+        "Automatisk restore og backup af Mnesia-data."
+      ],
+      "caseStudy": "I højsæsonen går Erlang-motoren ned på grund af korrupt Mnesia-data fra dårlige assets eller jobdata. Virksomheden ville have en webapplikation til at styre dataene.",
+      "fullDetails": [
+        "Full stack-webapplikation til at styre Mnesia DB via Python subprocess.",
+        "Skalerbare UI-komponenter og REST API'er til at opdatere rækker og skrive tilbage.",
+        "Automatisk restore og backup via en automatiseringsproces."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "AWS",
+        "mnesia db",
+        "sub process"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "AWS - EC2",
+        "mnesia db",
+        "sub process"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge Microservices",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Microservices til Forge (pdf-generering, cutlines, templates m.m.)",
+      "bullets": [
+        "Nye microservices til Forge for bedre skalerbarhed.",
+        "Cut lines-feature der reducerede materialespild med 30%.",
+        "Templates til nye produktlinjer, 20% flere kunder."
+      ],
+      "caseStudy": "Den eksisterende monolit var blevet en flaskehals for Erlang OTP-motorens skalerbarhed. Virksomheden havde brug for nye microservices til Forge.",
+      "fullDetails": [
+        "Nye microservices til Forge for at forbedre skalerbarhed og throughput.",
+        "Cut lines-feature der reducerede materialespild med 30% og sparede tusindvis af dollars.",
+        "XML-templates til nye produktlinjer, som bragte nye kunder og øgede omsætningen med 20% ved at reducere time-to-market."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker",
+        "CI/CD"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Modernisering af Ledger Insights (finance og accounting)",
+      "bullets": [
+        "End-to-end bidrag til moderniseringen af Ledger Insights.",
+        "Kritiske microservices, som manglede i Ledger 3D.",
+        "UI-komponenter, charts og grafer for bedre UI/UX."
+      ],
+      "caseStudy": "Ledger Insights blev bygget til at dække mangler i Ledger 3D, som mangler Trade Groups, Reports, Accounts Receivable og debitorbetalingstrends.",
+      "fullDetails": [
+        "Væsentlige bidrag til redesign, reskin og genudvikling af Ledger Insights.",
+        "Kritiske microservices til Trade Groups, Reports, Accounts Receivable og debitorbetalingstrends.",
+        "UI-komponenter til bedre UX plus komplekse charts og grafer.",
+        "CI/CD-pipeline til at automatisere deployment af produktet."
+      ],
+      "topSkills": [
+        "Fast API",
+        "React JS",
+        "AWS",
+        "Oracle DB",
+        "Docker"
+      ],
+      "allSkills": [
+        "Fast API",
+        ".NET Framework",
+        "React",
+        "AWS - ECS, lambda, S3 etc",
+        "Python",
+        "javaScript",
+        "SQLAlchemy",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Global DET",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Datagovernance og datakvalitetskontrol",
+      "bullets": [
+        "Datastyringsapplikation der forbedrede nøjagtigheden med 7%.",
+        "REST API'er til kundeplatforme med datavalidering.",
+        "Dynamiske entity-workflows med Jinja, WTForms, Airflow m.m."
+      ],
+      "caseStudy": "Data fra vendors er ikke altid korrekte eller opdaterede. Organisationen havde brug for en struktureret måde at rette data og forbedre kvalitet på tværs af alle entiteter.",
+      "fullDetails": [
+        "Flask MVT-applikation oven på flask manager til at redigere data struktureret, hvilket løftede nøjagtigheden fra 90% til 97%.",
+        "REST API'er integreret direkte i kundevendte platforme, der krævede ekstra checks og edits.",
+        "Custom workflow med Jinja-templates, WTF-forms og validering til at oprette formularer pr. entity-type.",
+        "Airflow DAG til at udtrække redigerede data og uploade til S3 til videre behandling i prod Redshift."
+      ],
+      "topSkills": [
+        "Flask MVT",
+        "jQuery",
+        "AWS",
+        "MariaDB",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Flask MVT",
+        "jQuery",
+        "Python",
+        "javaScript",
+        "AWS - ECS, S3 etc",
+        "Terraform",
+        "MariaDB",
+        "Oracle DB"
+      ]
+    }
+  ]
+}

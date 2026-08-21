@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Parcurs academic",
+    "heading": "Educație",
+    "description": "Diplomele și programele care mi-au format baza tehnică și modul de a gândi designul."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

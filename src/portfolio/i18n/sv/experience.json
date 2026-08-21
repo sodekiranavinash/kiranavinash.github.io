@@ -1,0 +1,79 @@
+{
+  "section": {
+    "heading": "Yrkeserfarenhet",
+    "description": "En kompakt översikt över de team jag har hjälpt till att bygga, de produkter jag har levererat och de mätbara resultat jag har skapat.",
+    "readMore": "Läs mer",
+    "close": "Stäng",
+    "roleAndResponsibilities": "Roll och ansvar",
+    "projects": "Projekt"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "Engineer II",
+      "organization": "S&P Energy",
+      "period": "mar 2025 - nu",
+      "description": [
+        "Jag utvecklar för närvarande en sales intelligence-plattform med LLM-drivna innehållsflöden.",
+        "Jag utvecklade Rapid- och Chat AI MCP-servrar som leveransmetod för strukturerad och ostrukturerad data till kunder.",
+        "Jag migrerade äldre manifest-applikationer till Helm och uppgraderade proaktivt Kubernetes-komponenter för att minska image-sårbarheter."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Jag arbetade som Forward Deployed Engineer och samarbetade med team för att ta AI-lösningar från POC till produktion.",
+        "Jag ägde produkter end-to-end över design, utveckling, test och deployment.",
+        "Jag drev säkerhetsförbättringar genom att integrera Mend, Fortify, SonarQube, secret scanning och Claude-skanningar."
+      ],
+      "projectHighlights": [
+        "Jag utvecklar för närvarande en sales intelligence-plattform för commercial-teamet som levererar pitches som text, infografik, HTML, PDF, PPT m.m. utifrån offentlig information, proprietär data och historik, vilket minskar säljteamets arbete med 50%.",
+        "Jag ledde utvecklingen av Chat AI MCP Server byggd ovanpå spgci pysdk-biblioteket; data hämtas genom att köra kod skriven av LLM-klienter (MS Copilot, Claude, Databricks m.m.).",
+        "Jag ledde utvecklingen av RAPID MCP Server byggd ovanpå Rapid API-manifestet; data levereras genom att köra faktiska API:er med frågor formade av LLM-klienter och används nu brett i interna AI-applikationer.",
+        "Som en del av API Platform-teamet konverterade jag gamla manifest-applikationer till Helm, uppgraderade proaktivt Kubernetes-komponenter (OTel, Data Prepper, Jaeger m.m.) för att minimera image-sårbarheter och drev flera produktionsreleaser."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "organization": "Genpact",
+      "period": "mar 2025 - feb 2024",
+      "description": [
+        "Jag byggde en Text2SQL AI-agent för kunddataanalys som förbättrade effektiviteten och minskade beroendet av datateamet med 25%.",
+        "Jag byggde ett Mnesia DB-hanteringssystem för datakorrigering och återställning, vilket sparade 10 000 dollar per incident.",
+        "Jag byggde mikrotjänster för Forge-batchingapplikationer, ökade press-batchingkapaciteten och förbättrade workflowet med 50%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Jag ledde ett team på 3 utvecklare inom modernisering av kodbasen, molnbaserade lösningar och GenAI-initiativ.",
+        "Jag banade väg för produktionsadoption av GenAI-initiativ, bortom POC:er.",
+        "Jag delade PagerDuty-ansvar och hanterade on-call-rotationer för produktionssupport."
+      ],
+      "projectHighlights": [
+        "Jag utvecklade en Text2SQL AI-agent för att fråga och analysera kunddata som orderhistorik, klagomål och produkttyper, vilket förbättrade effektiviteten och minskade beroendet av datateam med 25%.",
+        "Jag utvecklade ett databashanteringssystem för Mnesia DB som hjälpte till med korrigering och återställning vid dålig upstream asset- eller orderdata och sparade företaget 10 000 dollar per incident.",
+        "Jag byggde mikrotjänster (pdf-generering, cutlines, mallar m.m.) för Forge-batchingapplikationer, ökade kapaciteten och förbättrade workflowet med 50%."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "Junior full stack-ingenjör",
+      "organization": "Creditsafe",
+      "period": "feb 2024 - okt 2021",
+      "description": [
+        "Nyckelbidrag till att migrera Ledger Insights från äldre .NET till en modern Python-, React-, AWS- och PostgreSQL-stack.",
+        "Jag byggde kritiska mikrotjänster och skalbara UI-komponenter och stöttade B2B-affärer värda 500 000 dollar.",
+        "Jag byggde ett Data Editing Tool för governance-team och förbättrade datakvaliteten från 88% till 98%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Jag samarbetade med engineering- och produktteam för att leverera skalbara, produktionsklara lösningar.",
+        "Jag drev proaktivt kodkvalitet, prestanda och säkerhet via code reviews, parprogrammering och kunskapsdelning.",
+        "Jag underhöll teknisk dokumentation och arkitekturwikis för att förbättra alignment och kunskapsdelning."
+      ],
+      "projectHighlights": [
+        "Jag spelade en nyckelroll i migreringen av Ledger Insights från äldre .NET till en modern stack (Python, React, AWS, Postgres).",
+        "Jag utvecklade kritiska mikrotjänster (AR Requests, CFO-rapporter, Combined Experience m.m.) tillsammans med skalbara frontendkomponenter och sidor, vilket hjälpte till att säkra B2B-affärer värda 500 000 dollar.",
+        "Jag utvecklade ett Data Editing Tool för datagovernance-team i alla entiteter för att rätta felaktig och redundant företagsdata (datakvalitet från 88% till 98%)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Percurso académico",
+    "heading": "Formação",
+    "description": "Graus e programas que moldaram a minha base técnica e o meu pensamento de design."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

@@ -79,7 +79,12 @@ export const Projects: React.FC = () => {
         </div>
       </Container>
 
-      <Modal open={Boolean(active)} onClose={() => setSelectedId(null)} title={active?.title ?? ''}>
+      <Modal
+        open={Boolean(active)}
+        onClose={() => setSelectedId(null)}
+        title={active?.title ?? ''}
+        closeLabel={t.close}
+      >
         {active ? (
           <div className="space-y-6">
             {active.company ? (

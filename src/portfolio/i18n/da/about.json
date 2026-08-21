@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "welcome": "Velkommen til mit arbejdsrum",
+    "greeting": "Hej, jeg er",
+    "subtitle": "Full stack-ingeniør og AI-specialist",
+    "description": "Jeg bygger næste generation af intelligente, brugercentrerede webapplikationer.",
+    "viewWork": "Se mit arbejde",
+    "downloadCv": "Download CV",
+    "scrollDown": "Scroll ned"
+  },
+  "section": {
+    "heading": "Om mig",
+    "nameLabel": "Navn",
+    "titleLabel": "Titel",
+    "aboutLabel": "Om",
+    "educationLabel": "Uddannelse",
+    "skillsLabel": "Kompetencer",
+    "socialLabel": "Kontakt",
+    "experienceText": "Erhvervserfaring"
+  },
+  "name": "Kiran Avinash Sode",
+  "title": "AI & Forward Deployed Engineering",
+  "bioParagraphs": [
+    "Jeg går hurtigt fra rå idéer til fungerende AI-systemer og laver derefter den engineering, der gør dem pålidelige. Jeg arbejder med interessenter om at omsætte forretningsbehov til teknisk retning og itererer hurtigt mod systemer, der kan komme i produktion og blive der."
+  ],
+  "metrics": [
+    {
+      "label": "Års erfaring",
+      "value": "5+",
+      "description": "Enterprise-apps"
+    },
+    {
+      "label": "Afsluttede projekter",
+      "value": "10+",
+      "description": "Leveret til produktion"
+    },
+    {
+      "label": "AI-integrationer",
+      "value": "5+",
+      "description": "LLM-workflows"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sodekiranavinash",
+      "iconName": "GitBranch"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sode-kiran-avinash",
+      "iconName": "Link"
+    }
+  ],
+  "email": "kiranavinash.sode@gmail.com",
+  "emailLabel": "E-mail",
+  "connect": {
+    "text": "Jeg er altid åben for at tale om nye AI-produkter, platformarbejde eller samarbejde."
+  }
+}

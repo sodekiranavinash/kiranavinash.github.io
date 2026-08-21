@@ -1,0 +1,334 @@
+{
+  "section": {
+    "heading": "Lucrări evidențiate",
+    "personal": "Proiecte personale",
+    "professional": "Proiecte profesionale",
+    "live": "LIVE",
+    "architecture": "Arhitectură",
+    "readMore": "Citește mai mult",
+    "close": "Închide",
+    "caseStudy": "Studiu de caz",
+    "highlights": "Repere",
+    "skills": "Competențe"
+  },
+  "personal": [],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Agent de inteligență comercială (pitch, fluxuri personalizate)",
+      "bullets": [
+        "Am dezvoltat Planner Agent și subagenți specializați.",
+        "UI drag-and-drop pentru a proiecta fluxuri de agenți și a mapa inputurile.",
+        "Suportă pitch-uri de vânzări în text, HTML, PPT etc."
+      ],
+      "caseStudy": "Pentru clienți noi sau reînnoiri, echipa de vânzări trebuie să adune manual multe date și să pregătească un pitch deck. Vrea să reducă timpul folosind AI pentru a genera pitch-ul.",
+      "fullDetails": [
+        "Planner Agent și mai mulți subagenți (căutare web, pachete curente, pitch_generator, battlecards etc.) integrați într-un singur flux pentru a genera un pitch.",
+        "Componente UI pentru a trage și plasa agenți și inputurile lor ca să creezi un flux.",
+        "Generare de pitch-uri în text, fișier HTML, fișier PPT etc. în funcție de alegerea utilizatorului.",
+        "Integrarea oricărui server MCP și a uneltelor sale în fluxul curent."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "EKS",
+        "SES",
+        "S3",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "Crawl4AI",
+        "OpenSearch VectorDB",
+        "AWS EKS, SES, S3 etc",
+        "AgentCore Code Interpreter",
+        "PostgreSQL",
+        "AzureOpenAI API"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "MCP Playground",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Playground AI agentic pentru testarea și validarea uneltelor MCP",
+      "bullets": [
+        "Am proiectat și dezvoltat un playground MCP pentru testarea uneltelor MCP.",
+        "Afișează evenimente pe măsură ce uneltele sunt executate.",
+        "Modul de consistență pentru teste pe întrebările experților."
+      ],
+      "caseStudy": "Compania voia să valideze acuratețea și consistența uneltelor MCP înainte de a le pune în producție.",
+      "fullDetails": [
+        "Playground MCP pentru testarea uneltelor și validarea execuțiilor multimodal față de întrebările experților.",
+        "Adăugare de servere MCP în playground din UI și stream de evenimente în timpul execuției.",
+        "Modul de consistență pentru teste pe întrebările experților, cu suport multimodal."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "MCP Client",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "Chat AI MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Server MCP orientat către clienți (date structurate și nestructurate)",
+      "bullets": [
+        "Execută cod SPGCI PySDK generat de LLM pentru a recupera date.",
+        "Unelte MCP cu acuratețea și fiabilitatea Platts Chat AI.",
+        "Acces și onboarding ușor al mai multor seturi de date."
+      ],
+      "caseStudy": "Compania voia să ofere MCP ca serviciu, cu aceeași acuratețe și fiabilitate ca Platts Chat AI, fără evaluare repetată a experților pe fiecare unealtă MCP nouă.",
+      "fullDetails": [
+        "5 unelte MCP (get_methods, get_method_details, execute, get_agentic_metadata, agentic_search) pentru recuperarea datelor structurate și nestructurate.",
+        "Integrarea AWS AgentCore Code Interpreter pentru a executa în siguranță cod generat de LLM într-un mediu izolat.",
+        "Acces și onboarding al mai multor seturi de date prin parametri URL și variabile de mediu."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL",
+        "AgentCore Code Interpreter"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "RAPID MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Server MCP intern (date structurate din API-urile Rapid)",
+      "bullets": [
+        "Soluție MCP pentru a transforma sute de API-uri Rapid în unelte MCP.",
+        "Strategie de căutare MCP pentru a depăși limitele uneltelor LLM.",
+        "Căutare cu API de reranking pentru a scoate în față API-urile relevante."
+      ],
+      "caseStudy": "Microserviciile Rapid sunt create cu Rapid Automation și deployate. Compania avea nevoie de un framework care să convertească sute de API-uri Rapid în unelte MCP fără a atinge codul microserviciului.",
+      "fullDetails": [
+        "Soluție Rapid MCP cu unelte (instructions, search, get_unique_values, execute, utility_tools) pentru a transforma sute de API-uri Rapid în API-uri executabile și căutabile, fără schimbare de cod la nivel de microserviciu.",
+        "Arhitectură de căutare MCP pentru a depăși limitele uneltelor LLM căutând în API-urile Rapid și rerankându-le după relevanță.",
+        "Unelte MCP de utilitate pentru a crea fișiere CSV și imagini markdown din datele recuperate."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "Reranker API",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "prof-5",
+      "title": "Text2SQL AI Agent",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Limbaj natural către SQL (analiză clienți, tendințe, insight-uri)",
+      "bullets": [
+        "Agent AI care convertește întrebări în limbaj natural în SQL.",
+        "Arhitectură LangGraph noduri/muchii cu buclă de feedback.",
+        "Eșantionare de date, de query-uri și unelte SQLAlchemy."
+      ],
+      "caseStudy": "Echipa de produs depindea de echipele de date pentru insight-uri și tendințe despre clienți. Compania voia să folosească AI pentru a recupera date și a analiza tendințe din query-uri SQL complexe.",
+      "fullDetails": [
+        "Agent AI care convertește întrebări NL în query-uri SQL pentru a obține info, insight-uri și tendințe din datele clienților.",
+        "Cu un design de muchii și noduri, agentul automatizează buclele de corectare a erorilor SQL.",
+        "Eșantionare automată a datelor, exemple de query-uri și descrieri de coloane pentru a îmbunătăți acuratețea și consistența."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS",
+        "Oracle DB"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS - EC2",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Aplicație web pentru gestionarea datelor Mnesia DB (restore, backup etc.)",
+      "bullets": [
+        "Aplicație web full stack pentru gestionarea datelor Mnesia DB.",
+        "API REST pentru actualizarea rândurilor Mnesia și scrierea înapoi.",
+        "Restore și backup automat al datelor Mnesia."
+      ],
+      "caseStudy": "În sezoanele de vârf, din cauza unor asset-uri sau date de job greșite, motorul Erlang cade din cauza datelor Mnesia corupte. Compania voia o aplicație web pentru a le gestiona.",
+      "fullDetails": [
+        "Aplicație web full stack pentru gestionarea Mnesia DB folosind o abordare subprocess Python.",
+        "Componente UI scalabile și API REST pentru actualizarea rândurilor și scrierea înapoi.",
+        "Restore și backup automat printr-un proces de automatizare."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "AWS",
+        "mnesia db",
+        "sub process"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "AWS - EC2",
+        "mnesia db",
+        "sub process"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge Microservices",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Microservicii pentru Forge (generare PDF, cutlines, template-uri etc.)",
+      "bullets": [
+        "Microservicii noi pentru Forge ca să îmbunătățească scalabilitatea.",
+        "Funcție cut lines care a redus risipa de material cu 30%.",
+        "Template-uri pentru linii de produs noi, +20% clienți."
+      ],
+      "caseStudy": "Monolitul existent devenise un bottleneck pentru scalabilitatea motorului Erlang OTP. Compania avea nevoie de microservicii noi pentru Forge.",
+      "fullDetails": [
+        "Microservicii noi pentru Forge ca să îmbunătățească scalabilitatea și throughput-ul.",
+        "Funcție cut lines care a redus risipa de material cu 30% și a ajutat la economisirea a mii de dolari.",
+        "Template-uri XML pentru linii de produs noi care au adus clienți noi și au crescut venitul cu 20% prin reducerea time-to-market."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker",
+        "CI/CD"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Modernizarea Ledger Insights (finanțe și contabilitate)",
+      "bullets": [
+        "Contribuții end-to-end la modernizarea Ledger Insights.",
+        "Microservicii critice care lipseau din Ledger 3D.",
+        "Componente UI, chart-uri și grafice pentru o UI/UX mai bună."
+      ],
+      "caseStudy": "Ledger Insights a fost construit ca să acopere lipsurile Ledger 3D, care nu are Trade Groups, Reports, Accounts Receivable și tendințe de plată ale debitorilor.",
+      "fullDetails": [
+        "Contribuții semnificative la redesign, reskin și redevelopment al Ledger Insights.",
+        "Microservicii critice pentru Trade Groups, Reports, Accounts Receivable și tendințe de plată ale debitorilor.",
+        "Componente UI pentru o UX mai bună, împreună cu chart-uri și grafice complexe.",
+        "Pipeline CI/CD pentru a automatiza deployment-ul produsului."
+      ],
+      "topSkills": [
+        "Fast API",
+        "React JS",
+        "AWS",
+        "Oracle DB",
+        "Docker"
+      ],
+      "allSkills": [
+        "Fast API",
+        ".NET Framework",
+        "React",
+        "AWS - ECS, lambda, S3 etc",
+        "Python",
+        "javaScript",
+        "SQLAlchemy",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Global DET",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Guvernanță a datelor și control al calității",
+      "bullets": [
+        "Aplicație de management al datelor care a îmbunătățit acuratețea cu 7%.",
+        "API REST pentru platformele clienților, cu validare a datelor.",
+        "Fluxuri dinamice de entități cu Jinja, WTForms, Airflow etc."
+      ],
+      "caseStudy": "Datele furnizate de vendor-i nu sunt întotdeauna corecte și actualizate. Organizația avea nevoie de o modalitate structurată de a corecta datele și de a îmbunătăți calitatea în toate entitățile.",
+      "fullDetails": [
+        "Aplicație Flask MVT peste flask manager pentru a edita datele structurat, ridicând acuratețea de la 90% la 97%.",
+        "API REST integrate direct în platforme orientate către clienți care necesitau verificări și editări suplimentare.",
+        "Flux personalizat cu template-uri Jinja, formulare WTF și validare pentru a crea formulare pe tip de entitate.",
+        "DAG Airflow pentru a extrage datele editate și a le încărca în S3 pentru procesare ulterioară în Redshift de producție."
+      ],
+      "topSkills": [
+        "Flask MVT",
+        "jQuery",
+        "AWS",
+        "MariaDB",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Flask MVT",
+        "jQuery",
+        "Python",
+        "javaScript",
+        "AWS - ECS, S3 etc",
+        "Terraform",
+        "MariaDB",
+        "Oracle DB"
+      ]
+    }
+  ]
+}

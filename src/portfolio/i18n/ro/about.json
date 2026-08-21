@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "welcome": "Bine ai venit în spațiul meu de lucru",
+    "greeting": "Salut, sunt",
+    "subtitle": "Inginer full stack și specialist AI",
+    "description": "Construiesc următoarea generație de aplicații web inteligente, centrate pe utilizator.",
+    "viewWork": "Vezi munca mea",
+    "downloadCv": "Descarcă CV-ul",
+    "scrollDown": "Derulează în jos"
+  },
+  "section": {
+    "heading": "Despre mine",
+    "nameLabel": "Nume",
+    "titleLabel": "Titlu",
+    "aboutLabel": "Profil",
+    "educationLabel": "Educație",
+    "skillsLabel": "Competențe",
+    "socialLabel": "Contact",
+    "experienceText": "Experiență profesională"
+  },
+  "name": "Kiran Avinash Sode",
+  "title": "AI & Forward Deployed Engineering",
+  "bioParagraphs": [
+    "Trec rapid de la idei brute la sisteme AI funcționale, apoi fac ingineria necesară ca să le fac fiabile. Lucrez cu stakeholderii ca să transform nevoile de business în direcție tehnică, iterând rapid spre sisteme care pot ajunge în producție și rămân acolo."
+  ],
+  "metrics": [
+    {
+      "label": "Ani de experiență",
+      "value": "5+",
+      "description": "Aplicații enterprise"
+    },
+    {
+      "label": "Proiecte finalizate",
+      "value": "10+",
+      "description": "Livrate în producție"
+    },
+    {
+      "label": "Integrări AI",
+      "value": "5+",
+      "description": "Fluxuri LLM"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sodekiranavinash",
+      "iconName": "GitBranch"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sode-kiran-avinash",
+      "iconName": "Link"
+    }
+  ],
+  "email": "kiranavinash.sode@gmail.com",
+  "emailLabel": "E-mail",
+  "connect": {
+    "text": "Sunt mereu deschis să discut despre produse AI noi, lucru de platformă sau oportunități de colaborare."
+  }
+}

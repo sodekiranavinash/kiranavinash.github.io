@@ -1,13 +1,25 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "recommendations": "Recommendations",
-    "skills": "Skills"
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "recommendations": "Recommandations",
+    "skills": "Compétences"
   },
   "footer": {
-    "tagline": "Crafted with precision. Built to scale.",
-    "rights": "All rights reserved."
+    "tagline": "La discipline construit la liberté",
+    "rights": "Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "back": "Retour"
+  },
+  "a11y": {
+    "selectLanguage": "Choisir la langue",
+    "toggleTheme": "Changer le thème",
+    "toggleMenu": "Ouvrir le menu",
+    "closeModal": "Fermer la fenêtre",
+    "previousRecommendation": "Recommandation précédente",
+    "nextRecommendation": "Recommandation suivante",
+    "viewLinkedInProfile": "Voir le profil LinkedIn de {name}"
   }
 }

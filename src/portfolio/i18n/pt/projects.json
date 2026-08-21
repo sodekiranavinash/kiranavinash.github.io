@@ -1,0 +1,334 @@
+{
+  "section": {
+    "heading": "Trabalho em destaque",
+    "personal": "Projetos pessoais",
+    "professional": "Projetos profissionais",
+    "live": "LIVE",
+    "architecture": "Arquitetura",
+    "readMore": "Ler mais",
+    "close": "Fechar",
+    "caseStudy": "Estudo de caso",
+    "highlights": "Destaques",
+    "skills": "Competências"
+  },
+  "personal": [],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Agente de inteligência comercial (pitch, fluxos personalizados)",
+      "bullets": [
+        "Desenvolvi Planner Agent e subagentes especializados.",
+        "UI de arrastar e largar para desenhar fluxos de agentes e mapear inputs.",
+        "Suporta pitches de vendas em texto, HTML, PPT, etc."
+      ],
+      "caseStudy": "Para clientes novos ou renovações, a equipa comercial precisa de reunir muitos dados e preparar um pitch deck. Quer reduzir esse tempo usando IA para gerar o pitch.",
+      "fullDetails": [
+        "Planner Agent e vários subagentes (pesquisa web, packages atuais, pitch_generator, battlecards, etc.) integrados num fluxo para gerar um pitch.",
+        "Componentes UI para arrastar e largar agentes e os respetivos inputs para criar um fluxo.",
+        "Geração de pitches em texto, ficheiro HTML, ficheiro PPT, etc., consoante a escolha do utilizador.",
+        "Integração de qualquer servidor MCP e das respetivas ferramentas no fluxo atual."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "EKS",
+        "SES",
+        "S3",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "FastAPI",
+        "React",
+        "LangGraph",
+        "Crawl4AI",
+        "OpenSearch VectorDB",
+        "AWS EKS, SES, S3 etc",
+        "AgentCore Code Interpreter",
+        "PostgreSQL",
+        "AzureOpenAI API"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "MCP Playground",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Playground de IA agêntica para testar e validar ferramentas MCP",
+      "bullets": [
+        "Desenhei e desenvolvi um playground MCP para testar ferramentas MCP.",
+        "Mostra eventos à medida que as ferramentas são executadas.",
+        "Módulo de consistência para correr testes contra perguntas de especialistas."
+      ],
+      "caseStudy": "A empresa queria validar a precisão e a consistência das ferramentas MCP antes de as colocar em produção.",
+      "fullDetails": [
+        "Playground MCP para testar ferramentas e validar execuções de forma multimodal face a perguntas de especialistas.",
+        "Adicionar servidores MCP ao playground pela UI e fazer stream de eventos durante a execução.",
+        "Módulo de consistência para correr testes contra perguntas de especialistas com suporte multimodal."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "MCP Client",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "Chat AI MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Servidor MCP virado para clientes (dados estruturados e não estruturados)",
+      "bullets": [
+        "Executa código SPGCI PySDK gerado por LLM para obter dados.",
+        "Ferramentas MCP com a precisão e fiabilidade do Platts Chat AI.",
+        "Acesso e onboarding simples de vários conjuntos de dados."
+      ],
+      "caseStudy": "A empresa queria oferecer MCP como serviço com a mesma precisão e fiabilidade do Platts Chat AI, sem repetir a avaliação de especialistas em cada nova ferramenta MCP.",
+      "fullDetails": [
+        "5 ferramentas MCP (get_methods, get_method_details, execute, get_agentic_metadata, agentic_search) para obter dados estruturados e não estruturados.",
+        "Integração do AWS AgentCore Code Interpreter para executar código gerado por LLM de forma segura num ambiente isolado.",
+        "Acesso e onboarding de vários conjuntos de dados via parâmetros de URL e variáveis de ambiente."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL",
+        "AgentCore Code Interpreter"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "RAPID MCP",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Servidor MCP interno (dados estruturados das API Rapid)",
+      "bullets": [
+        "Solução MCP para transformar centenas de API Rapid em ferramentas MCP.",
+        "Estratégia de pesquisa MCP para ultrapassar limites das ferramentas LLM.",
+        "Pesquisa com API de reranking para destacar as API relevantes."
+      ],
+      "caseStudy": "Os microserviços Rapid são criados com Rapid Automation e implantados. A empresa precisava de um framework que convertesse centenas de API Rapid em ferramentas MCP sem tocar no código do microserviço.",
+      "fullDetails": [
+        "Solução Rapid MCP com ferramentas (instructions, search, get_unique_values, execute, utility_tools) para transformar centenas de API Rapid em API executáveis e pesquisáveis sem alterar código ao nível do microserviço.",
+        "Arquitetura de pesquisa MCP para ultrapassar limites das ferramentas LLM ao pesquisar nas API Rapid e reordená-las por relevância.",
+        "Ferramentas MCP de utilidade para criar ficheiros CSV e imagens markdown a partir dos dados obtidos."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "Reranker API",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "prof-5",
+      "title": "Text2SQL AI Agent",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Linguagem natural para SQL (análise de clientes, tendências, insights)",
+      "bullets": [
+        "Agente de IA para converter perguntas em linguagem natural em SQL.",
+        "Arquitetura LangGraph de nós e arestas com ciclo de feedback.",
+        "Amostragem de dados, de queries e ferramentas SQLAlchemy."
+      ],
+      "caseStudy": "A equipa de produto dependia das equipas de dados para insights e tendências de clientes. A empresa queria usar IA para obter dados e analisar tendências a partir de queries SQL complexas.",
+      "fullDetails": [
+        "Agente de IA para converter perguntas NL em queries SQL e obter info, insights e tendências a partir de dados de clientes.",
+        "Com um design de arestas e nós, o agente automatiza ciclos de correção de erros SQL.",
+        "Amostragem automática de dados, exemplos de queries e descrições de colunas para melhorar precisão e consistência."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS",
+        "Oracle DB"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS - EC2",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Aplicação web para gerir dados Mnesia DB (restauro, backup, etc.)",
+      "bullets": [
+        "Aplicação web full stack para gerir dados Mnesia DB.",
+        "API REST para atualizar linhas Mnesia e voltar a gravá-las.",
+        "Restauro e backup automáticos de dados Mnesia."
+      ],
+      "caseStudy": "Em épocas de pico, por assets ou dados de jobs incorretos, o motor Erlang cai devido a dados Mnesia corrompidos. A empresa queria uma aplicação web para gerir esses dados.",
+      "fullDetails": [
+        "Aplicação web full stack para gerir Mnesia DB com uma abordagem de subprocess Python.",
+        "Componentes UI escaláveis e API REST para atualizar linhas e voltar a gravá-las.",
+        "Restauro e backup automáticos através de um processo de automatização."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "AWS",
+        "mnesia db",
+        "sub process"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "AWS - EC2",
+        "mnesia db",
+        "sub process"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge Microservices",
+      "company": "Genpact",
+      "category": "professional",
+      "summary": "Microserviços para Forge (geração de PDF, cutlines, templates, etc.)",
+      "bullets": [
+        "Novos microserviços para Forge para melhorar a escalabilidade.",
+        "Funcionalidade de cut lines que reduziu o desperdício de material em 30%.",
+        "Templates para novas linhas de produto, +20% de clientes."
+      ],
+      "caseStudy": "O monólito existente tornou-se um gargalo para a escalabilidade do motor Erlang OTP. A empresa precisava de novos microserviços para Forge.",
+      "fullDetails": [
+        "Novos microserviços para Forge para melhorar escalabilidade e throughput.",
+        "Funcionalidade de cut lines que reduziu o desperdício de material em 30% e poupou milhares de dólares.",
+        "Templates XML para novas linhas de produto que trouxeram novos clientes e aumentaram a receita em 20% ao reduzir o time-to-market."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker",
+        "CI/CD"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Modernização do Ledger Insights (finanças e contabilidade)",
+      "bullets": [
+        "Contributos de ponta a ponta para a modernização do Ledger Insights.",
+        "Microserviços críticos em falta no Ledger 3D.",
+        "Componentes UI, charts e gráficos para melhorar a UI/UX."
+      ],
+      "caseStudy": "O Ledger Insights foi construído para cobrir falhas do Ledger 3D, que não tem Trade Groups, Reports, Accounts Receivable nem tendências de pagamento de devedores.",
+      "fullDetails": [
+        "Contributos significativos para o redesign, reskin e redevelopment do Ledger Insights.",
+        "Microserviços críticos para Trade Groups, Reports, Accounts Receivable e tendências de pagamento de devedores.",
+        "Componentes UI para uma melhor UX juntamente com charts e gráficos complexos.",
+        "Pipeline CI/CD para automatizar o deployment do produto."
+      ],
+      "topSkills": [
+        "Fast API",
+        "React JS",
+        "AWS",
+        "Oracle DB",
+        "Docker"
+      ],
+      "allSkills": [
+        "Fast API",
+        ".NET Framework",
+        "React",
+        "AWS - ECS, lambda, S3 etc",
+        "Python",
+        "javaScript",
+        "SQLAlchemy",
+        "Oracle DB",
+        "Docker"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Global DET",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Governação de dados e controlo de qualidade",
+      "bullets": [
+        "Aplicação de gestão de dados que melhorou a precisão em 7%.",
+        "API REST para plataformas de clientes com validação de dados.",
+        "Fluxos de entidades dinâmicos com Jinja, WTForms, Airflow, etc."
+      ],
+      "caseStudy": "Os dados fornecidos pelos vendors nem sempre são precisos ou atualizados. A organização precisava de uma forma estruturada de corrigir dados e melhorar a qualidade em todas as entidades.",
+      "fullDetails": [
+        "Aplicação Flask MVT sobre flask manager para editar dados de forma estruturada, melhorando a precisão de 90% para 97%.",
+        "API REST integradas diretamente em plataformas viradas para o cliente que exigiam checks e edições extra.",
+        "Fluxo personalizado com templates Jinja, formulários WTF e validação para criar formulários por tipo de entidade.",
+        "DAG Airflow para extrair dados editados e carregá-los para S3 para processamento no Redshift de produção."
+      ],
+      "topSkills": [
+        "Flask MVT",
+        "jQuery",
+        "AWS",
+        "MariaDB",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Flask MVT",
+        "jQuery",
+        "Python",
+        "javaScript",
+        "AWS - ECS, S3 etc",
+        "Terraform",
+        "MariaDB",
+        "Oracle DB"
+      ]
+    }
+  ]
+}

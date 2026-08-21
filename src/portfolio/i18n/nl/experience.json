@@ -1,0 +1,79 @@
+{
+  "section": {
+    "heading": "Werkervaring",
+    "description": "Een compact overzicht van de teams die ik heb helpen bouwen, de producten die ik heb opgeleverd en de meetbare resultaten die ik heb behaald.",
+    "readMore": "Meer lezen",
+    "close": "Sluiten",
+    "roleAndResponsibilities": "Rol en verantwoordelijkheden",
+    "projects": "Projecten"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "Engineer II",
+      "organization": "S&P Energy",
+      "period": "mrt 2025 - heden",
+      "description": [
+        "Ik ontwikkel momenteel een sales-intelligenceplatform met LLM-gestuurde contentworkflows.",
+        "Ik heb Rapid- en Chat-AI-MCP-servers ontwikkeld als leveringsmethode voor gestructureerde en ongestructureerde data aan klanten.",
+        "Ik heb legacy-manifestapplicaties naar Helm gemigreerd en Kubernetes-componenten proactief geüpgraded om image-kwetsbaarheden te verminderen."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Ik werkte als Forward Deployed Engineer en bracht samen met teams AI-oplossingen van POC naar productie.",
+        "Ik droeg producten end-to-end: ontwerp, ontwikkeling, testen en deployment.",
+        "Ik dreef beveiligingsverbeteringen door Mend, Fortify, SonarQube, secret scanning en Claude-scans te integreren."
+      ],
+      "projectHighlights": [
+        "Ik ontwikkel momenteel een sales-intelligenceplatform voor het commercial team dat pitches levert als tekst, infographics, HTML, PDF, PPT enz., op basis van publieke informatie, propriëtaire data en historie, waardoor het werk van het salesteam met 50% daalt.",
+        "Ik leidde de ontwikkeling van de Chat AI MCP Server, gebouwd op de spgci pysdk-bibliotheek; data wordt opgehaald door code uit te voeren die door LLM-clients is geschreven (MS Copilot, Claude, Databricks enz.).",
+        "Ik leidde de ontwikkeling van de RAPID MCP Server, gebouwd op het Rapid API-manifest; data wordt geleverd door echte API's uit te voeren met queries van LLM-clients en wordt nu breed gebruikt in interne AI-applicaties.",
+        "Als onderdeel van het API Platform Team heb ik oude manifestapplicaties omgezet naar Helm, Kubernetes-componenten (OTel, Data Prepper, Jaeger enz.) proactief geüpgraded om image-kwetsbaarheden te minimaliseren, en meerdere productiereleases gedreven."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "organization": "Genpact",
+      "period": "mrt 2025 - feb 2024",
+      "description": [
+        "Ik bouwde een Text2SQL AI-agent voor klantdata-analyse, waardoor de efficiëntie steeg en de afhankelijkheid van het datateam met 25% daalde.",
+        "Ik bouwde een Mnesia DB-beheersysteem voor datacorrectie en -herstel, waarmee 10.000 dollar per incident werd bespaard.",
+        "Ik bouwde microservices voor Forge-batchingapplicaties, waardoor de pers-batchingcapaciteit steeg en de workflow met 50% verbeterde."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Ik leidde een team van 3 developers bij codebase-modernisering, cloud-native oplossingen en GenAI-initiatieven.",
+        "Ik pionierde de productie-adoptie van GenAI-initiatieven, verder dan POC's.",
+        "Ik deelde PagerDuty-verantwoordelijkheid en beheerde on-call-rotaties voor productiesupport."
+      ],
+      "projectHighlights": [
+        "Ik ontwikkelde een Text2SQL AI-agent om klantdata zoals orderhistorie, klachten en producttypes te bevragen en analyseren, wat de efficiëntie verbeterde en de afhankelijkheid van datateams met 25% verminderde.",
+        "Ik ontwikkelde een databasebeheersysteem voor Mnesia DB dat hielp bij correctie en herstel bij slechte upstream asset- of orderdata, wat het bedrijf 10.000 dollar per incident scheelde.",
+        "Ik bouwde microservices (pdf-generatie, cutlines, templates enz.) voor Forge-batchingapplicaties, verhoogde de capaciteit en verbeterde de workflow met 50%."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "Junior full-stack engineer",
+      "organization": "Creditsafe",
+      "period": "feb 2024 - okt 2021",
+      "description": [
+        "Belangrijke bijdrage aan de migratie van Ledger Insights van legacy .NET naar een moderne stack van Python, React, AWS en PostgreSQL.",
+        "Ik bouwde kritieke microservices en schaalbare UI-componenten, ter ondersteuning van B2B-deals ter waarde van 500.000 dollar.",
+        "Ik bouwde een Data Editing Tool voor governanceteams en verbeterde de datakwaliteit van 88% naar 98%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Ik werkte samen met engineering- en productteams om schaalbare, productieklaar oplossingen te leveren.",
+        "Ik dreef proactief codekwaliteit, performance en security via code reviews, pair programming en kennisdeling.",
+        "Ik onderhield technische documentatie en architectuurwiki's om alignment en kennisdeling te verbeteren."
+      ],
+      "projectHighlights": [
+        "Ik speelde een sleutelrol in de migratie van Ledger Insights van legacy .NET naar een moderne stack (Python, React, AWS, Postgres).",
+        "Ik ontwikkelde kritieke microservices (AR Requests, CFO-rapporten, Combined Experience enz.) plus schaalbare frontendcomponenten en pagina's, wat hielp B2B-deals van 500.000 dollar binnen te halen.",
+        "Ik ontwikkelde een Data Editing Tool voor datagovernanceteams in alle entiteiten om onjuiste en redundante bedrijfsdata te corrigeren (datakwaliteit van 88% naar 98%)."
+      ]
+    }
+  ]
+}

@@ -30,7 +30,12 @@ export const Experience: React.FC = () => {
         </div>
       </Container>
 
-      <Modal open={Boolean(active)} onClose={() => setSelectedId(null)} title={active?.roleOrDegree ?? ''}>
+      <Modal
+        open={Boolean(active)}
+        onClose={() => setSelectedId(null)}
+        title={active?.roleOrDegree ?? ''}
+        closeLabel={t.close}
+      >
         {active ? (
           <div className="space-y-6">
             <p className="text-sm text-subtle">{active.organization}</p>

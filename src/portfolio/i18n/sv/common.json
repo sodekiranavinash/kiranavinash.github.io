@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "Om mig",
+    "experience": "Erfarenhet",
+    "projects": "Projekt",
+    "recommendations": "Rekommendationer",
+    "skills": "Kompetenser"
+  },
+  "footer": {
+    "tagline": "Disciplin bygger frihet",
+    "rights": "Alla rättigheter förbehållna.",
+    "privacyPolicy": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad",
+    "back": "Tillbaka"
+  },
+  "a11y": {
+    "selectLanguage": "Välj språk",
+    "toggleTheme": "Byt tema",
+    "toggleMenu": "Öppna menyn",
+    "closeModal": "Stäng fönstret",
+    "previousRecommendation": "Föregående rekommendation",
+    "nextRecommendation": "Nästa rekommendation",
+    "viewLinkedInProfile": "Visa {name}s LinkedIn-profil"
+  }
+}

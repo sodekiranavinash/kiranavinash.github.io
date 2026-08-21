@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "recommendations": "Recomendaciones",
+    "skills": "Competencias"
+  },
+  "footer": {
+    "tagline": "La disciplina construye libertad",
+    "rights": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de privacidad",
+    "lastUpdated": "Última actualización",
+    "back": "Volver"
+  },
+  "a11y": {
+    "selectLanguage": "Seleccionar idioma",
+    "toggleTheme": "Cambiar tema",
+    "toggleMenu": "Abrir menú",
+    "closeModal": "Cerrar ventana",
+    "previousRecommendation": "Recomendación anterior",
+    "nextRecommendation": "Recomendación siguiente",
+    "viewLinkedInProfile": "Ver el perfil de LinkedIn de {name}"
+  }
+}

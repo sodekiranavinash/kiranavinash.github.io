@@ -1,6 +1,6 @@
 import enSkills from '../i18n/en/skills.json';
-import frSkills from '../i18n/fr/skills.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface SkillItem {
   name: string;
@@ -22,16 +22,13 @@ export interface SkillsContent {
   categories: SkillCategory[];
 }
 
-export const skillsContentByLocale: Record<Locale, SkillsContent> = {
-  en: enSkills as SkillsContent,
-  fr: frSkills as SkillsContent,
-};
+export const skillsContentByLocale = loadNamespace<SkillsContent>('skills');
 
 export const skillsContent: SkillsContent = skillsContentByLocale.en;
 
 export const getSkillsContent = (locale?: Locale): SkillsContent => {
   if (!locale || !skillsContentByLocale[locale]) {
-    return skillsContentByLocale.en;
+    return enSkills as SkillsContent;
   }
   return skillsContentByLocale[locale];
 };

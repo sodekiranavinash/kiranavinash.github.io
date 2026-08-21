@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Akademisk baggrund",
+    "heading": "Uddannelse",
+    "description": "Uddannelser og programmer, der har formet mit tekniske fundament og designtænkning."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

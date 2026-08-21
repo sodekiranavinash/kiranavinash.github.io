@@ -1,0 +1,30 @@
+{
+  "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
+  "section": {
+    "eyebrow": "CV-center",
+    "heading": "CV",
+    "subtitle": "Åbn den fulde CV-forhåndsvisning, eller download en PDF til rekrutterere og hiring-teams.",
+    "reviewOrDownload": "Se eller download",
+    "reviewResume": "Se CV",
+    "downloadResume": "Download CV",
+    "highlights": "Højdepunkter",
+    "certifications": "Certificeringer og specialiseringer",
+    "verifyCredential": "Bekræft certifikat"
+  },
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2025",
+      "credentialUrl": "https://aws.amazon.com"
+    },
+    {
+      "id": "cert-2",
+      "title": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta / Coursera",
+      "date": "2023",
+      "credentialUrl": "https://coursera.org"
+    }
+  ]
+}

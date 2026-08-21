@@ -1,0 +1,64 @@
+{
+  "section": {
+    "heading": "Recomandări",
+    "description": "Ce spun colegii și colaboratorii despre munca împreună.",
+    "previous": "Recomandarea anterioară",
+    "next": "Recomandarea următoare"
+  },
+  "items": [
+    {
+      "id": "rec-1",
+      "name": "Dylan Willis",
+      "profileUrl": "https://www.linkedin.com/in/dylan-willis-13148029",
+      "role": "Scrum Master și delivery lead",
+      "company": "Shutterfly LLC, USA",
+      "experience": "Peste 10 ani de experiență",
+      "quote": "Am avut plăcerea să lucrez cu Avinash în echipa Lab Eng de la Shutterfly și m-a impresionat prin expertiza tehnică, abilitățile de problem-solving și abordarea colaborativă. Știe să descompună provocări complexe și să găsească soluții practice. Dincolo de competențele tehnice, Avinash este un coleg de echipă excelent: deschis la feedback, dornic să învețe și proactiv în a-i ajuta pe ceilalți. Atitudinea pozitivă și dedicația au avut un impact real. Îl recomand cu căldură pe Avinash oricărei organizații care caută un inginer full stack competent și de încredere. Succes, Kiran!"
+    },
+    {
+      "id": "rec-2",
+      "name": "Sunil Babu",
+      "profileUrl": "https://www.linkedin.com/in/sunilbhai/",
+      "role": "Arhitect cloud și GenAI",
+      "company": "Genpact India - Shutterfly",
+      "experience": "Peste 25 de ani de experiență",
+      "quote": "Am avut plăcerea să lucrez cu Avinash: stăpânește bine Python și livrează constant cod curat, eficient și bine structurat. Capacitatea lui de a înțelege rapid medii tehnice complexe îi permite să se integreze fără fricțiune și să avanseze proiectele. Cu un problem-solving excepțional, nu doar rezolvă probleme dificile, ci optimizează soluțiile și crește productivitatea echipei. Îl recomand pe Avinash pentru orice rol care cere expertiză solidă în Python."
+    },
+    {
+      "id": "rec-3",
+      "name": "Sourav Basu",
+      "profileUrl": "https://www.linkedin.com/in/srvbasu/",
+      "role": "Principal Engineer",
+      "company": "Genpact India - Shutterfly",
+      "experience": "Peste 16 ani de experiență",
+      "quote": "Scriu cu plăcere această recomandare pentru Avinash, cu care am lucrat îndeaproape la Genpact. Pe parcursul colaborării, Avinash a demonstrat constant profesionalism excepțional, expertiză tehnică și un angajament puternic față de rezultate de calitate. Abilitățile de problem-solving și înțelegerea profundă a optimizării sistemelor îi permit să livreze cod curat și eficient. Nu am nicio îndoială că va fi un plus pentru orice echipă. Îl recomand din toată inima."
+    },
+    {
+      "id": "rec-4",
+      "name": "Samrat Sen",
+      "profileUrl": "https://www.linkedin.com/in/samrat-sen-262751159/",
+      "role": "Inginer de baze de date",
+      "company": "Creditsafe - LI Team",
+      "experience": "Peste 10 ani de experiență",
+      "quote": "Am avut plăcerea să lucrez cu Avinash și am fost constant impresionat de expertiza tehnică și de capacitatea de a livra inclusiv sub termene strânse. Avinash a demonstrat un nivel de competență din care nu l-am văzut niciodată ca pe un junior: anticipa provocările și acționa proactiv. Abilitățile de problem-solving și dedicația față de calitate îl fac valoros. Îl recomand cu căldură pe Avinash ca dezvoltator full stack."
+    },
+    {
+      "id": "rec-5",
+      "name": "Poonam G",
+      "profileUrl": "https://www.linkedin.com/in/poonam-ghutukade-5100ab155/",
+      "role": "Ingineră software",
+      "company": "Creditsafe - LI Team",
+      "experience": "Peste 7 ani de experiență",
+      "quote": "Am lucrat cu Avinash la proiectul Ledger Insight de la Creditsafe Technology. A demonstrat constant competențe tehnice excepționale în proiectarea interfețelor și în analiza datelor complexe pentru insight-uri acționabile. Avinash are o abilitate remarcabilă de a rezolva probleme dificile, de a construi API-uri și de a inova. Îi doresc tot ce e mai bun."
+    },
+    {
+      "id": "rec-6",
+      "name": "Uday Kumar",
+      "profileUrl": "https://www.linkedin.com/in/uday-kumar-59a10a227/",
+      "role": "Inginer QA senior",
+      "company": "Creditsafe - LI Team",
+      "experience": "Peste 9 ani de experiență",
+      "quote": "Am avut plăcerea să lucrez cu Avinash în echipa Ledger Insights și am fost impresionat de dedicație, abordarea proactivă și mentalitatea de echipă. Avinash este o persoană harnică care nu se oprește la propriile responsabilități, ci merge mai departe pentru succesul echipei. Mentalitatea lui de produs este excepțională: se concentrează mereu pe valoarea pentru utilizator, ținând cont de obiectivele de business."
+    }
+  ]
+}

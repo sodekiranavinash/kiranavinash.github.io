@@ -1,52 +1,122 @@
 {
   "section": {
-    "eyebrow": "Core strengths",
-    "heading": "Skills & Expertise",
-    "description": "The tools, platforms, and disciplines I use to ship polished, production-ready experiences."
+    "eyebrow": "Forces principales",
+    "heading": "Compétences et expertise",
+    "description": "Les outils, plateformes et disciplines que j'utilise pour livrer des expériences soignées, prêtes pour la production."
   },
   "categories": [
     {
-      "categoryName": "AI",
+      "categoryName": "IA",
       "skills": [
-        { "name": "Prompt Engineering" },
-        { "name": "RAG" },
-        { "name": "Multi-Agent Systems" },
-        { "name": "MCP" },
-        { "name": "AI Evaluation" },
-        { "name": "Lang Chain" },
-        { "name": "Langraph" },
-        { "name": "OpenSearch Vector DB" }
+        {
+          "name": "Prompt Engineering"
+        },
+        {
+          "name": "RAG"
+        },
+        {
+          "name": "A2A Communication"
+        },
+        {
+          "name": "Multi-Agent Systems"
+        },
+        {
+          "name": "MCP"
+        },
+        {
+          "name": "AI Evaluation"
+        },
+        {
+          "name": "Lang Chain"
+        },
+        {
+          "name": "Langraph"
+        },
+        {
+          "name": "OpenSearch Vector DB"
+        }
       ]
     },
     {
-      "categoryName": "Full Stack",
+      "categoryName": "Full stack",
       "skills": [
-        { "name": "FastAPI" },
-        { "name": "React" },
-        { "name": "Python" },
-        { "name": "JavaScript" },
-        { "name": "TypeScript" },
-        { "name": "SQL" },
-        { "name": "PostgreSQL" },
-        { "name": "Oracle DB" },
-        { "name": "MariaDB" },
-        { "name": "Golang(basics)" },
-        { "name": ".NET(basics)" }
+        {
+          "name": "FastAPI"
+        },
+        {
+          "name": "React JS"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "SQL"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "Oracle DB"
+        },
+        {
+          "name": "MariaDB"
+        },
+        {
+          "name": "Flask MVT"
+        },
+        {
+          "name": "Golang(basics)"
+        },
+        {
+          "name": ".NET(basics)"
+        }
       ]
     },
     {
-      "categoryName": "Cloud & Infra",
+      "categoryName": "Cloud et infra",
       "skills": [
-        { "name": "AWS - EC2, ECS, EKS, Lambda, S3 etc" },
-        { "name": "Kubernetes" },
-        { "name": "Open Search" },
-        { "name": "Helm" },
-        { "name": "Docker" },
-        { "name": "Jenkins" },
-        { "name": "Ansible" },
-        { "name": "Kong Gateway" },
-        { "name": "Open Telemetry" },
-        { "name": "Jaeger" }
+        {
+          "name": "AWS - EC2, ECS, EKS, Lambda, S3, RDS, SES, etc"
+        },
+        {
+          "name": "Kubernetes"
+        },
+        {
+          "name": "Open Search"
+        },
+        {
+          "name": "Helm"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Jenkins"
+        },
+        {
+          "name": "Ansible"
+        },
+        {
+          "name": "Kong API Gateway"
+        },
+        {
+          "name": "Open Telemetry"
+        },
+        {
+          "name": "Jaeger"
+        },
+        {
+          "name": "Goldilocks"
+        },
+        {
+          "name": "Grafana"
+        }
       ]
     }
   ]

@@ -6,10 +6,11 @@ interface ModalProps {
   open: boolean;
   onClose: () => void;
   title: string;
+  closeLabel?: string;
   children: React.ReactNode;
 }
 
-export const Modal: React.FC<ModalProps> = ({ open, onClose, title, children }) => {
+export const Modal: React.FC<ModalProps> = ({ open, onClose, title, closeLabel, children }) => {
   return (
     <AnimatePresence>
       {open ? (
@@ -33,7 +34,7 @@ export const Modal: React.FC<ModalProps> = ({ open, onClose, title, children }) 
               <button
                 onClick={onClose}
                 className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md border border-default text-muted transition-colors hover:border-strong hover:text-fg"
-                aria-label="Close modal"
+                aria-label={closeLabel || 'Close modal'}
               >
                 <X className="h-4 w-4" />
               </button>

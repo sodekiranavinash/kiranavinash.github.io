@@ -1,6 +1,6 @@
 import enProjects from '../i18n/en/projects.json';
-import frProjects from '../i18n/fr/projects.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface ProjectItem {
   id: string;
@@ -37,16 +37,13 @@ export interface ProjectsContent {
   professional: ProjectItem[];
 }
 
-export const projectsContentByLocale: Record<Locale, ProjectsContent> = {
-  en: enProjects as ProjectsContent,
-  fr: frProjects as ProjectsContent,
-};
+export const projectsContentByLocale = loadNamespace<ProjectsContent>('projects');
 
 export const projectsContent: ProjectsContent = projectsContentByLocale.en;
 
 export const getProjectsContent = (locale?: Locale): ProjectsContent => {
   if (!locale || !projectsContentByLocale[locale]) {
-    return projectsContentByLocale.en;
+    return enProjects as ProjectsContent;
   }
   return projectsContentByLocale[locale];
 };

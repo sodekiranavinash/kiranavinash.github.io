@@ -13,17 +13,23 @@ interface Recommendation {
 interface RecommendationCardProps {
   item: Recommendation;
   number: number;
+  profileAriaLabel: string;
   style?: React.CSSProperties;
 }
 
-export const RecommendationCard: React.FC<RecommendationCardProps> = ({ item, number, style }) => {
+export const RecommendationCard: React.FC<RecommendationCardProps> = ({
+  item,
+  number,
+  profileAriaLabel,
+  style,
+}) => {
   return (
     <a
       href={item.profileUrl}
       target="_blank"
       rel="noopener noreferrer"
       data-recommendation-card
-      aria-label={`View ${item.name}'s LinkedIn profile`}
+      aria-label={profileAriaLabel}
       style={style}
       className="card-surface group relative flex shrink-0 cursor-pointer flex-col p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]"
     >

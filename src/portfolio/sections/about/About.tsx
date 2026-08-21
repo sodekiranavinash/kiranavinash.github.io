@@ -10,7 +10,6 @@ import { AboutIntro } from './AboutIntro';
 import { AboutBio } from './AboutBio';
 import { AboutMetrics } from './AboutMetrics';
 import { AboutEducation } from './AboutEducation';
-import { AboutConnect } from './AboutConnect';
 
 export const About: React.FC = () => {
   const bundle = useI18n();
@@ -35,6 +34,9 @@ export const About: React.FC = () => {
             resumeUrl={resumeContent.resumeUrl}
             downloadCvLabel={hero.downloadCv}
             viewWorkLabel={hero.viewWork}
+            email={bundle.about.email}
+            emailLabel={bundle.about.emailLabel}
+            socialLinks={bundle.about.socialLinks || []}
           />
 
           <div className="space-y-6 border-t border-default pt-8">
@@ -45,13 +47,6 @@ export const About: React.FC = () => {
             <AboutMetrics metrics={(bundle.about.metrics || []).slice(0, 3)} />
             <AboutEducation label={t.educationLabel} education={educationContent.items[0]} />
           </div>
-
-          <AboutConnect
-            label={t.socialLabel}
-            text={bundle.about.connect.text}
-            email={bundle.about.email}
-            links={bundle.about.socialLinks || []}
-          />
         </motion.div>
       </Container>
     </Section>

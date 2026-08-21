@@ -8,6 +8,18 @@
   },
   "footer": {
     "tagline": "Discipline builds freedom",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "back": "Back"
+  },
+  "a11y": {
+    "selectLanguage": "Select language",
+    "toggleTheme": "Toggle theme",
+    "toggleMenu": "Toggle menu",
+    "closeModal": "Close modal",
+    "previousRecommendation": "Previous recommendation",
+    "nextRecommendation": "Next recommendation",
+    "viewLinkedInProfile": "View {name}'s LinkedIn profile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Formación académica",
+    "heading": "Educación",
+    "description": "Títulos y programas que dieron forma a mi base técnica y a mi forma de diseñar."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

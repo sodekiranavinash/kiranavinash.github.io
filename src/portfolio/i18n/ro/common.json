@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "Despre mine",
+    "experience": "Experiență",
+    "projects": "Proiecte",
+    "recommendations": "Recomandări",
+    "skills": "Competențe"
+  },
+  "footer": {
+    "tagline": "Disciplina construiește libertate",
+    "rights": "Toate drepturile rezervate.",
+    "privacyPolicy": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare",
+    "back": "Înapoi"
+  },
+  "a11y": {
+    "selectLanguage": "Selectează limba",
+    "toggleTheme": "Schimbă tema",
+    "toggleMenu": "Deschide meniul",
+    "closeModal": "Închide fereastra",
+    "previousRecommendation": "Recomandarea anterioară",
+    "nextRecommendation": "Recomandarea următoare",
+    "viewLinkedInProfile": "Vezi profilul LinkedIn al lui {name}"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "Over mij",
+    "experience": "Ervaring",
+    "projects": "Projecten",
+    "recommendations": "Aanbevelingen",
+    "skills": "Vaardigheden"
+  },
+  "footer": {
+    "tagline": "Discipline bouwt vrijheid",
+    "rights": "Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt",
+    "back": "Terug"
+  },
+  "a11y": {
+    "selectLanguage": "Taal selecteren",
+    "toggleTheme": "Thema wisselen",
+    "toggleMenu": "Menu openen",
+    "closeModal": "Venster sluiten",
+    "previousRecommendation": "Vorige aanbeveling",
+    "nextRecommendation": "Volgende aanbeveling",
+    "viewLinkedInProfile": "LinkedIn-profiel van {name} bekijken"
+  }
+}

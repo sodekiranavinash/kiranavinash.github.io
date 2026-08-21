@@ -1,6 +1,6 @@
 import enRecommendations from '../i18n/en/recommendations.json';
-import frRecommendations from '../i18n/fr/recommendations.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface RecommendationItem {
   id: string;
@@ -15,6 +15,8 @@ export interface RecommendationItem {
 export interface RecommendationsSectionLabels {
   heading: string;
   description: string;
+  previous: string;
+  next: string;
 }
 
 export interface RecommendationsContent {
@@ -22,14 +24,12 @@ export interface RecommendationsContent {
   items: RecommendationItem[];
 }
 
-export const recommendationsContentByLocale: Record<Locale, RecommendationsContent> = {
-  en: enRecommendations as RecommendationsContent,
-  fr: frRecommendations as RecommendationsContent,
-};
+export const recommendationsContentByLocale =
+  loadNamespace<RecommendationsContent>('recommendations');
 
 export const getRecommendationsContent = (locale?: Locale): RecommendationsContent => {
   if (!locale || !recommendationsContentByLocale[locale]) {
-    return recommendationsContentByLocale.en;
+    return enRecommendations as RecommendationsContent;
   }
   return recommendationsContentByLocale[locale];
 };

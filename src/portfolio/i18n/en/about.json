@@ -19,7 +19,7 @@
     "experienceText": "Professional Experience"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI & Forward-Deployed Engineering",
+  "title": "AI & Forward Deployed Engineering",
   "bioParagraphs": [
     "I move quickly from rough ideas to working AI systems, then do the engineering needed to make them reliable. I work with stakeholders to turn business needs into technical direction, iterating quickly toward systems that can make it to production and stay there."
   ],
@@ -33,6 +33,7 @@
     { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/sode-kiran-avinash", "iconName": "Link" }
   ],
   "email": "kiranavinash.sode@gmail.com",
+  "emailLabel": "Email",
   "connect": {
     "text": "I'm always open to discussing new AI products, platform work, or collaborative opportunities."
   }

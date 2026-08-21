@@ -1,6 +1,6 @@
 import enCommon from '../i18n/en/common.json';
-import frCommon from '../i18n/fr/common.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface CommonContent {
   nav: {
@@ -13,17 +13,26 @@ export interface CommonContent {
   footer: {
     tagline: string;
     rights: string;
+    privacyPolicy: string;
+    lastUpdated: string;
+    back: string;
+  };
+  a11y: {
+    selectLanguage: string;
+    toggleTheme: string;
+    toggleMenu: string;
+    closeModal: string;
+    previousRecommendation: string;
+    nextRecommendation: string;
+    viewLinkedInProfile: string;
   };
 }
 
-export const commonContentByLocale: Record<Locale, CommonContent> = {
-  en: enCommon as CommonContent,
-  fr: frCommon as CommonContent,
-};
+export const commonContentByLocale = loadNamespace<CommonContent>('common');
 
 export const getCommonContent = (locale?: Locale): CommonContent => {
   if (!locale || !commonContentByLocale[locale]) {
-    return commonContentByLocale.en;
+    return enCommon as CommonContent;
   }
   return commonContentByLocale[locale];
 };

@@ -16,7 +16,8 @@ export const Navbar: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const isHomePage = location.pathname === '/';
-  const t = getCommonContent(locale).nav;
+  const common = getCommonContent(locale);
+  const t = common.nav;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 16);
@@ -64,7 +65,7 @@ export const Navbar: React.FC = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-default text-fg"
-              aria-label="Toggle menu"
+              aria-label={common.a11y.toggleMenu}
             >
               {isOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
             </button>

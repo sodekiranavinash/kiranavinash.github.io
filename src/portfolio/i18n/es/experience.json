@@ -1,0 +1,79 @@
+{
+  "section": {
+    "heading": "Experiencia profesional",
+    "description": "Una visión compacta de los equipos que he ayudado a construir, los productos que he entregado y los resultados medibles que he logrado.",
+    "readMore": "Leer más",
+    "close": "Cerrar",
+    "roleAndResponsibilities": "Rol y responsabilidades",
+    "projects": "Proyectos"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "Engineer II",
+      "organization": "S&P Energy",
+      "period": "mar. 2025 - actualidad",
+      "description": [
+        "Actualmente desarrollo una plataforma de inteligencia comercial que integra flujos de contenido impulsados por LLM.",
+        "Desarrollé servidores MCP Rapid y Chat AI como método de entrega de datos estructurados y no estructurados a clientes.",
+        "Migré aplicaciones manifest heredadas a Helm y actualicé de forma proactiva componentes de Kubernetes para reducir vulnerabilidades de imágenes."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Trabajé como Forward Deployed Engineer, colaborando con equipos para llevar soluciones de IA del POC a producción.",
+        "Asumí productos de extremo a extremo en diseño, desarrollo, pruebas y despliegue.",
+        "Impulsé mejoras de seguridad integrando Mend, Fortify, SonarQube, secret scanning y escaneos de Claude."
+      ],
+      "projectHighlights": [
+        "Actualmente desarrollo una plataforma de inteligencia comercial para el equipo comercial que genera pitches en texto, infografías, HTML, PDF, PPT, etc., a partir de información pública, datos propietarios e historial, lo que reduce el trabajo del equipo de ventas en un 50%.",
+        "Lideré el desarrollo del servidor MCP Chat AI sobre la biblioteca spgci pysdk; los datos se recuperan ejecutando código escrito por clientes LLM (MS Copilot, Claude, Databricks, etc.).",
+        "Lideré el desarrollo del servidor MCP RAPID sobre el manifiesto de las API Rapid; los datos se entregan ejecutando las API reales con consultas formadas por clientes LLM y ahora se usa ampliamente en aplicaciones internas de IA.",
+        "En el equipo de API Platform convertí aplicaciones manifest antiguas en aplicaciones Helm, actualicé de forma proactiva componentes de Kubernetes (OTel, Data Prepper, Jaeger, etc.) para minimizar vulnerabilidades de imágenes y lideré varios lanzamientos a producción."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "organization": "Genpact",
+      "period": "mar. 2025 - feb. 2024",
+      "description": [
+        "Construí un agente de IA Text2SQL para análisis de datos de clientes, mejorando la eficiencia y reduciendo la dependencia del equipo de datos en un 25%.",
+        "Construí un sistema de gestión de Mnesia DB para corrección y recuperación de datos, ahorrando 10.000 $ por incidente.",
+        "Construí microservicios para las aplicaciones de batching de Forge, aumentando la capacidad de batching de prensa y mejorando el flujo de trabajo en un 50%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Lideré un equipo de 3 desarrolladores en modernización de código, soluciones cloud-native e iniciativas GenAI.",
+        "Impulsé la adopción en producción de iniciativas GenAI, más allá de los POC.",
+        "Compartí la responsabilidad de PagerDuty y gestioné rotaciones de guardia para soporte de producción."
+      ],
+      "projectHighlights": [
+        "Desarrollé un agente de IA Text2SQL para consultar y analizar datos de clientes como historial de pedidos, reclamaciones y tipos de producto, lo que mejoró la eficiencia y redujo la dependencia de los equipos de datos en un 25%.",
+        "Desarrollé un sistema de gestión para Mnesia DB que ayudó a corregir y restaurar datos cuando había assets u pedidos upstream incorrectos, ahorrando 10.000 $ por incidente.",
+        "Construí microservicios (generación de PDF, cutlines, plantillas, etc.) para las aplicaciones de batching de Forge, aumentando la capacidad y mejorando el flujo de trabajo en un 50%."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "Ingeniero full stack junior",
+      "organization": "Creditsafe",
+      "period": "feb. 2024 - oct. 2021",
+      "description": [
+        "Contribuidor clave en la migración de Ledger Insights de un legado .NET a un stack moderno de Python, React, AWS y PostgreSQL.",
+        "Construí microservicios críticos y componentes de UI escalables, apoyando acuerdos B2B por valor de 500.000 $.",
+        "Construí una herramienta de edición de datos para equipos de gobierno, mejorando la calidad de los datos del 88% al 98%."
+      ],
+      "tags": [],
+      "roleAndResponsibilities": [
+        "Colaboré con equipos de ingeniería y producto para entregar soluciones escalables listas para producción.",
+        "Impulsé de forma proactiva la calidad del código, el rendimiento y la seguridad mediante revisiones, pair programming y conocimiento compartido.",
+        "Mantuve documentación técnica y wikis de arquitectura para mejorar la alineación y el intercambio de conocimiento."
+      ],
+      "projectHighlights": [
+        "Jugué un papel clave en la migración de Ledger Insights de un legado .NET a un stack moderno (Python, React, AWS, Postgres).",
+        "Desarrollé microservicios críticos (solicitudes AR, informes CFO, Combined Experience, etc.) junto con componentes y páginas frontend escalables, lo que ayudó a asegurar acuerdos B2B de 500.000 $.",
+        "Desarrollé una herramienta de edición de datos para equipos de gobierno de datos en todas las entidades, para corregir datos de empresa incorrectos y redundantes (calidad del 88% al 98%)."
+      ]
+    }
+  ]
+}

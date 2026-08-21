@@ -1,0 +1,16 @@
+{
+  "section": {
+    "eyebrow": "Academische achtergrond",
+    "heading": "Opleiding",
+    "description": "Diploma's en programma's die mijn technische basis en ontwerpdenken hebben gevormd."
+  },
+  "items": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Technology",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology",
+      "period": "2021"
+    }
+  ]
+}

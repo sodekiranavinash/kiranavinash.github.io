@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useI18n from '../i18n/useI18n';
 import type { SocialLink } from '../content/about';
 import { useLocale } from '@shared/context/ThemeContext';
@@ -28,6 +29,12 @@ export const Footer: React.FC = () => {
               &copy; {currentYear} {bundle.about.name}. {t.rights}
             </p>
             <p className="mt-1 font-mono text-xs text-subtle">{t.tagline}</p>
+            <Link
+              to="/privacy"
+              className="mt-3 inline-block text-xs text-muted transition-colors hover:text-fg"
+            >
+              {t.privacyPolicy}
+            </Link>
           </div>
 
           <div className="flex gap-2">

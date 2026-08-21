@@ -1,0 +1,30 @@
+{
+  "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
+  "section": {
+    "eyebrow": "Cv-centrum",
+    "heading": "Cv",
+    "subtitle": "Open de volledige cv-preview of download een PDF voor recruiters en hiringteams.",
+    "reviewOrDownload": "Bekijken of downloaden",
+    "reviewResume": "Cv bekijken",
+    "downloadResume": "Cv downloaden",
+    "highlights": "Hoogtepunten",
+    "certifications": "Certificeringen en specialisaties",
+    "verifyCredential": "Credential verifiëren"
+  },
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2025",
+      "credentialUrl": "https://aws.amazon.com"
+    },
+    {
+      "id": "cert-2",
+      "title": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta / Coursera",
+      "date": "2023",
+      "credentialUrl": "https://coursera.org"
+    }
+  ]
+}

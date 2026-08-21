@@ -1,0 +1,64 @@
+{
+  "section": {
+    "heading": "Anbefalinger",
+    "description": "Hvad kolleger og samarbejdspartnere siger om at arbejde sammen.",
+    "previous": "Forrige anbefaling",
+    "next": "Næste anbefaling"
+  },
+  "items": [
+    {
+      "id": "rec-1",
+      "name": "Dylan Willis",
+      "profileUrl": "https://www.linkedin.com/in/dylan-willis-13148029",
+      "role": "Scrum Master og delivery lead",
+      "company": "Shutterfly LLC, USA",
+      "experience": "Over 10 års erfaring",
+      "quote": "Jeg havde fornøjelsen af at arbejde med Avinash på Shutterfly Lab Eng-teamet, og han imponerede mig med sin tekniske ekspertise, problemløsning og samarbejdsvilje. Han kan bryde komplekse udfordringer ned og finde praktiske løsninger. Ud over de tekniske evner er Avinash en stærk holdspiller: åben for feedback, ivrig efter at lære og proaktiv med at hjælpe andre. Hans positive attitude og dedikation gjorde en reel forskel. Jeg anbefaler Avinash til enhver organisation, der søger en dygtig og pålidelig full-stack-ingeniør. Held og lykke, Kiran!"
+    },
+    {
+      "id": "rec-2",
+      "name": "Sunil Babu",
+      "profileUrl": "https://www.linkedin.com/in/sunilbhai/",
+      "role": "Cloudarkitekt og GenAI",
+      "company": "Genpact India - Shutterfly",
+      "experience": "Over 25 års erfaring",
+      "quote": "Jeg havde fornøjelsen af at arbejde med Avinash. Han har et stærkt greb om Python og leverer konsekvent ren, effektiv og velstruktureret kode. Hans evne til hurtigt at forstå komplekse tekniske miljøer gør, at han glider ind i projekter og skaber reel fremdrift. Med exceptionelle problemløsningsevner løser han ikke kun svære issues, han optimerer løsninger og løfter teamets produktivitet. Jeg anbefaler Avinash til enhver rolle, der kræver stærk Python-udvikling."
+    },
+    {
+      "id": "rec-3",
+      "name": "Sourav Basu",
+      "profileUrl": "https://www.linkedin.com/in/srvbasu/",
+      "role": "Principal Engineer",
+      "company": "Genpact India - Shutterfly",
+      "experience": "Over 16 års erfaring",
+      "quote": "Jeg skriver med glæde denne anbefaling til Avinash, som jeg har arbejdet tæt sammen med hos Genpact. Gennem vores tid sammen har Avinash konsekvent vist exceptionel professionalisme, teknisk ekspertise og et stærkt engagement i at levere høj kvalitet. Hans problemløsning og dybe forståelse af systemoptimering gør, at han leverer ren, effektiv kode. Jeg er ikke i tvivl om, at Avinash er en gevinst for ethvert team. Jeg anbefaler ham helhjertet."
+    },
+    {
+      "id": "rec-4",
+      "name": "Samrat Sen",
+      "profileUrl": "https://www.linkedin.com/in/samrat-sen-262751159/",
+      "role": "Databaseingeniør",
+      "company": "Creditsafe - LI Team",
+      "experience": "Over 10 års erfaring",
+      "quote": "Jeg havde fornøjelsen af at arbejde med Avinash og var konsekvent imponeret over hans tekniske ekspertise og evne til at levere, selv under stramme deadlines. Avinash viste et kompetenceniveau, hvor jeg aldrig så ham som junior: han forudså udfordringer og handlede proaktivt. Hans problemløsning og dedikation til kvalitet gør ham værdifuld. Jeg anbefaler Avinash som full-stack-udvikler."
+    },
+    {
+      "id": "rec-5",
+      "name": "Poonam G",
+      "profileUrl": "https://www.linkedin.com/in/poonam-ghutukade-5100ab155/",
+      "role": "Softwareingeniør",
+      "company": "Creditsafe - LI Team",
+      "experience": "Over 7 års erfaring",
+      "quote": "Jeg arbejdede med Avinash på Creditsafe Technologys Ledger Insight-projekt. Han viste konsekvent exceptionelle tekniske færdigheder i at designe brugerflader og analysere kompleks data til handlingsrettede indsigter. Avinash har en bemærkelsesværdig evne til at løse svære problemer, bygge API'er og innovere. Jeg ønsker ham alt det bedste."
+    },
+    {
+      "id": "rec-6",
+      "name": "Uday Kumar",
+      "profileUrl": "https://www.linkedin.com/in/uday-kumar-59a10a227/",
+      "role": "Senior QA-ingeniør",
+      "company": "Creditsafe - LI Team",
+      "experience": "Over 9 års erfaring",
+      "quote": "Jeg havde fornøjelsen af at arbejde med Avinash på Ledger Insights-teamet og var imponeret over hans dedikation, proaktive tilgang og teamorienterede mindset. Avinash er hårdtarbejdende og går ud over sit eget ansvar for at sikre teamets succes. Hans produktmindset er exceptionelt og fokuserer altid på brugerværdi med forretningsmålene i sigte."
+    }
+  ]
+}

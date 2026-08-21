@@ -1,46 +1,40 @@
-import aboutEn from './en/about.json';
-import projectsEn from './en/projects.json';
-import skillsEn from './en/skills.json';
-import commonEn from './en/common.json';
-import resumeEn from './en/resume.json';
-import recommendationsEn from './en/recommendations.json';
-import experienceEn from './en/experience.json';
-import educationEn from './en/education.json';
+import { DEFAULT_LOCALE, type Locale } from './locales';
+import { loadNamespace } from './loadNamespace';
+import type { AboutContent } from '../content/about';
+import type { CommonContent } from '../content/common';
+import type { EducationContent } from '../content/education';
+import type { ExperienceContent } from '../content/experience';
+import type { ProjectsContent } from '../content/projects';
+import type { RecommendationsContent } from '../content/recommendations';
+import type { ResumeContent } from '../content/resume';
+import type { SkillsContent } from '../content/skills';
 
-import aboutFr from './fr/about.json';
-import projectsFr from './fr/projects.json';
-import skillsFr from './fr/skills.json';
-import commonFr from './fr/common.json';
-import resumeFr from './fr/resume.json';
-import recommendationsFr from './fr/recommendations.json';
-import experienceFr from './fr/experience.json';
-import educationFr from './fr/education.json';
+export type { Locale } from './locales';
+export {
+  DEFAULT_LOCALE,
+  LOCALES,
+  LOCALE_NATIVE_NAMES,
+  isLocale,
+} from './locales';
 
-export type Locale = 'en' | 'fr';
+const about = loadNamespace<AboutContent>('about');
+const projects = loadNamespace<ProjectsContent>('projects');
+const skills = loadNamespace<SkillsContent>('skills');
+const common = loadNamespace<CommonContent>('common');
+const resume = loadNamespace<ResumeContent>('resume');
+const recommendations = loadNamespace<RecommendationsContent>('recommendations');
+const experience = loadNamespace<ExperienceContent>('experience');
+const education = loadNamespace<EducationContent>('education');
 
-const bundles: Record<Locale, any> = {
-  en: {
-    about: aboutEn,
-    projects: projectsEn,
-    skills: skillsEn,
-    common: commonEn,
-    resume: resumeEn,
-    recommendations: recommendationsEn,
-    experience: experienceEn,
-    education: educationEn,
-  },
-  fr: {
-    about: aboutFr,
-    projects: projectsFr,
-    skills: skillsFr,
-    common: commonFr,
-    resume: resumeFr,
-    recommendations: recommendationsFr,
-    experience: experienceFr,
-    education: educationFr,
-  },
-};
-
-export const getBundle = (locale: Locale) => bundles[locale] || bundles.en;
+export const getBundle = (locale: Locale) => ({
+  about: about[locale] ?? about[DEFAULT_LOCALE],
+  projects: projects[locale] ?? projects[DEFAULT_LOCALE],
+  skills: skills[locale] ?? skills[DEFAULT_LOCALE],
+  common: common[locale] ?? common[DEFAULT_LOCALE],
+  resume: resume[locale] ?? resume[DEFAULT_LOCALE],
+  recommendations: recommendations[locale] ?? recommendations[DEFAULT_LOCALE],
+  experience: experience[locale] ?? experience[DEFAULT_LOCALE],
+  education: education[locale] ?? education[DEFAULT_LOCALE],
+});
 
 export default getBundle;

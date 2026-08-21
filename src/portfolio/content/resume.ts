@@ -1,6 +1,7 @@
 import enResume from '../i18n/en/resume.json';
-import frResume from '../i18n/fr/resume.json';
 import type { Locale } from '@shared/context/ThemeContext';
+import { LOCALES } from '../i18n/locales';
+import { loadNamespace } from '../i18n/loadNamespace';
 
 export interface TimelineItem {
   id: string;
@@ -47,22 +48,26 @@ const resolveResumeUrl = (url: string): string => {
   return `${import.meta.env.BASE_URL}${url.replace(/^\//, '')}`;
 };
 
-export const resumeContentByLocale: Record<Locale, ResumeContent> = {
-  en: {
-    ...(enResume as ResumeContent),
-    resumeUrl: resolveResumeUrl((enResume as ResumeContent).resumeUrl),
-  },
-  fr: {
-    ...(frResume as ResumeContent),
-    resumeUrl: resolveResumeUrl((frResume as ResumeContent).resumeUrl),
-  },
-};
+const rawResumeByLocale = loadNamespace<ResumeContent>('resume');
+
+export const resumeContentByLocale = Object.fromEntries(
+  LOCALES.map((locale) => [
+    locale,
+    {
+      ...rawResumeByLocale[locale],
+      resumeUrl: resolveResumeUrl(rawResumeByLocale[locale].resumeUrl),
+    },
+  ]),
+) as Record<Locale, ResumeContent>;
 
 export const resumeContent: ResumeContent = resumeContentByLocale.en;
 
 export const getResumeContent = (locale?: Locale): ResumeContent => {
   if (!locale || !resumeContentByLocale[locale]) {
-    return resumeContentByLocale.en;
+    return {
+      ...(enResume as ResumeContent),
+      resumeUrl: resolveResumeUrl((enResume as ResumeContent).resumeUrl),
+    };
   }
   return resumeContentByLocale[locale];
 };
