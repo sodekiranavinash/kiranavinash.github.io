@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- SEO Meta Tags -->
-    <title>Kiran Avinash Sode | AI & Forward-Deployed Engineering</title>
+    <title>Kiran Avinash Sode | AI Forward Deployed Engineer</title>
     <meta name="description" content="Portfolio of Kiran Avinash Sode — AI Developer, Full Stack Engineer, and Kubernetes specialist building production-grade intelligent applications." />
     <meta name="keywords" content="Portfolio, AI Developer, Full Stack Engineer, React, TypeScript, Kubernetes, Software Engineer" />
     <meta name="author" content="Kiran Avinash Sode" />
@@ -15,8 +15,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-fGH55_7S.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BN8d0ws7.css">
+    <script>
+      (function () {
+        var locales = { en: 1, fr: 1, de: 1, nl: 1, da: 1, sv: 1, es: 1, it: 1, pt: 1, ro: 1 };
+        var root = document.documentElement;
+        try {
+          var savedTheme = localStorage.getItem('theme');
+          var theme =
+            savedTheme === 'light' || savedTheme === 'dark'
+              ? savedTheme
+              : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          root.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+          root.setAttribute('data-theme', theme);
+          root.style.colorScheme = theme;
+
+          var savedLocale = localStorage.getItem('locale');
+          var locale = savedLocale && locales[savedLocale] ? savedLocale : null;
+          if (!locale) {
+            var langs = navigator.languages && navigator.languages.length
+              ? navigator.languages
+              : [navigator.language];
+            for (var i = 0; i < langs.length; i++) {
+              var code = String(langs[i] || '').toLowerCase().slice(0, 2);
+              if (locales[code]) {
+                locale = code;
+                break;
+              }
+            }
+          }
+          root.lang = locale || 'en';
+        } catch (e) {
+          root.classList.add('theme-light');
+          root.style.colorScheme = 'light';
+          root.lang = 'en';
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-cqZ8kAnM.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-vt8_7-tR.css">
   </head>
   <body>
     <div id="root"></div>
