@@ -12,16 +12,18 @@
     "heading": "Sobre mim",
     "nameLabel": "Nome",
     "titleLabel": "Título",
-    "aboutLabel": "Sobre",
+    "aboutLabel": "Como trabalho como FDE",
+    "approachEyebrow": "Abordagem",
+    "approachDescription": "Três hábitos que moldam como levo o trabalho de IA de uma conversa até algo que as equipas podem correr em produção.",
     "educationLabel": "Formação",
     "skillsLabel": "Competências",
     "socialLabel": "Contacto",
     "experienceText": "Experiência profissional"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI & Forward Deployed Engineering",
+  "title": "AI Forward Deployed Engineer",
   "bioParagraphs": [
-    "Passo rapidamente de ideias em bruto para sistemas de IA a funcionar e depois faço a engenharia necessária para os tornar fiáveis. Trabalho com as partes interessadas para transformar necessidades de negócio em direção técnica, iterando depressa rumo a sistemas que possam ir para produção e ficar lá."
+    "Sou AI Forward Deployed Engineer. Trabalho com produto, vendas e engenharia para tornar necessidades de IA pouco claras num plano concreto, entregar depressa um protótipo a funcionar e depois deixar os fluxos LLM prontos para produção — com fiabilidade, observabilidade, deploys seguros e segurança desde o início."
   ],
   "metrics": [
     {

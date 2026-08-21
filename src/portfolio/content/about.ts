@@ -25,6 +25,8 @@ export interface AboutSectionLabels {
   nameLabel: string;
   titleLabel: string;
   aboutLabel: string;
+  approachEyebrow: string;
+  approachDescription: string;
   educationLabel: string;
   skillsLabel: string;
   socialLabel: string;

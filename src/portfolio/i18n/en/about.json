@@ -2,8 +2,8 @@
   "hero": {
     "welcome": "Welcome to my workspace",
     "greeting": "Hi, I'm",
-    "subtitle": "Full Stack Engineer & AI Specialist",
-    "description": "Building the next generation of intelligent, user-centric web applications.",
+    "subtitle": "AI Forward Deployed Engineer",
+    "description": "AI Forward Deployed Engineer building production-grade intelligent systems — from prototype to reliable shipping.",
     "viewWork": "View My Work",
     "downloadCv": "Download Resume",
     "scrollDown": "Scroll Down"
@@ -12,25 +12,47 @@
     "heading": "About Me",
     "nameLabel": "Name",
     "titleLabel": "Title",
-    "aboutLabel": "About",
+    "aboutLabel": "How I work as an FDE",
+    "approachEyebrow": "Approach",
+    "approachDescription": "Three habits that shape how I take AI work from a conversation to something teams can run in production.",
     "educationLabel": "Education",
     "skillsLabel": "Skills",
     "socialLabel": "Connect",
     "experienceText": "Professional Experience"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI & Forward Deployed Engineering",
+  "title": "AI Forward Deployed Engineer",
   "bioParagraphs": [
-    "I move quickly from rough ideas to working AI systems, then do the engineering needed to make them reliable. I work with stakeholders to turn business needs into technical direction, iterating quickly toward systems that can make it to production and stay there."
+    "I'm an AI Forward Deployed Engineer. I partner with product, sales, and engineering to turn unclear AI needs into a concrete plan, ship a working prototype quickly, then harden LLM workflows for real production — reliability, observability, and day-to-day operations — with security and safe deploys built in from the start."
   ],
   "metrics": [
-    { "label": "Years Experience", "value": "5+", "description": "Building Enterprise Apps" },
-    { "label": "Projects Completed", "value": "10+", "description": "Shipped to production" },
-    { "label": "AI Integrations", "value": "5+", "description": "LLMs Workflows" }
+    {
+      "label": "Years Experience",
+      "value": "5+",
+      "description": "Building Enterprise Apps"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "10+",
+      "description": "Shipped to production"
+    },
+    {
+      "label": "AI Integrations",
+      "value": "5+",
+      "description": "LLMs Workflows"
+    }
   ],
   "socialLinks": [
-    { "platform": "GitHub", "url": "https://github.com/sodekiranavinash", "iconName": "GitBranch" },
-    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/sode-kiran-avinash", "iconName": "Link" }
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sodekiranavinash",
+      "iconName": "GitBranch"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sode-kiran-avinash",
+      "iconName": "Link"
+    }
   ],
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "Email",
