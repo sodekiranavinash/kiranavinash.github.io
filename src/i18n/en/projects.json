@@ -49,95 +49,112 @@
         "AWS EKS, SES, S3 etc",
         "AgentCore Code Interpreter",
         "PostgreSQL",
-        "Azure OpenAI"
+        "AzureOpenAI API"
       ]
     },
     {
       "id": "prof-2",
+      "title": "MCP Playground",
+      "company": "S&P Energy",
+      "category": "professional",
+      "summary": "Agentic AI playground for testing and validating MCP tools",
+      "bullets": [
+        "Designed and developed MCP playground for testing MCP tools",
+        "Implemented feature to show events as tools get executed.",
+        "Built consistency module to run tests against SME's questions."
+        ],
+      "caseStudy": "Company wanted to validate MCP tools accuracy and consistency with tool executions before deploying them to production.",
+      "fullDetails": [
+        "Designed and developed MCP playground for testing MCP tools and validate tool executions with multimodal against SME's questions.",
+        "Implemented feature to add mcp servers to playground using UI and stream events as tools get executed.",
+        "Built consistency module to run tests against SME's questions and validate tool executions with multimodal support."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "MCP Client",
+        "EKS",
+        "PostgreSQL",
+        "Multi Modal"
+      ]
+    },
+    {
+      "id": "prof-3",
       "title": "Chat AI MCP",
       "company": "S&P Energy",
       "category": "professional",
       "summary": "Customer facing MCP server (structured & unstructured data)",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "Executes LLM-generated SPGCI PySDK code to retrieve data.",
+        "Built MCP tools matching Platts Chat AI in accuracy and reliability.",
+        "Developed feature to access and onboarding multiple datasets easily."
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Company wanted to provide MCP as a service to customers but we wanted same accuracy and reliability as Platts Chat AI. Also we didnt wanted repeated SME's evaluation on newer MCP Tools. ",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed 5 MCP tools (get_methods, get_method_details, execute, get_agentic_metadata, agentic_search) which help in retrival of structured and unstructured data.",
+        "Integrated aws agentcore code interpreter to execute LLM-generated code safely in isolated environment.",
+        "Developed feature to access and onboarding multiple datasets easily with URL params and env variables."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
-      ]
-    },
-    {
-      "id": "prof-3",
-      "title": "RAPID MCP",
-      "company": "S&P Energy",
-      "category": "professional",
-      "summary": "Internal MCP server (structured data from rapid api's)",
-      
-      "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
-      ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
-      "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
-      ],
-      "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
-      ],
-      "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL",
+        "AgentCore Code Interpreter"
       ]
     },
     {
       "id": "prof-4",
-      "title": "API Platform Works",
+      "title": "RAPID MCP",
       "company": "S&P Energy",
       "category": "professional",
-      "summary": "Helm deployments, component upgrades, production releases etc",
+      "summary": "Internal MCP server (structured data from Rapid API's)",
+      
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "MCP solution to transform 100's of Rapid API's into MCP tools.",
+        "Developed MCP search strategy to overcome LLM tools limitations.",
+        "Integrated search with reranking API to surface relevant APIs."
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Rapid microservices are created using Rapid Automation and deployed, In similar fashion company required framework that can convert 100's of Rapid API's into MCP tools without touching microservice code",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed Rapid MCP solution with tools (instructions, search, get_unique_values, execute, untility_tools) to transform 100's of Rapid API's into executable and searchable api's without changing code at microservice level.",
+        "Developed MCP search architecture to overcome LLM tools limitations by searching across Rapid API's and reranking them based on relevance.",
+        "Integrated utility mcp tools to create csv file and markdown images based on data retrieved from mcp tools."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "FastMCP",
+        "FastAPI",
+        "EKS",
+        "Code Interpreter",
+        "PostgreSQL"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Python",
+        "FastMCP",
+        "Reranker API",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL"
       ]
     },
-    
     {
       "id": "prof-5",
       "title": "Text2SQL AI Agent",
@@ -145,25 +162,33 @@
       "category": "professional",
       "summary": "Nautural Language to SQL (customer data analysis, Trends, Insights, etc)",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "Developed AI Agent to convert NL questions into SQL to retrieve data.",
+        "Integrated LangGraph nodes,edges architecture creating feedback loop.",
+        "Integrated data sampling, query sampling & SqAlchemy tools."
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Product team has dependency on data teams for customer data insights, trends, etc. So company wanted to leverage AI for retrieving data and analyzing trends from complex SQL queries.",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed AI Agent to convert NL questions into SQL queries to retrieve info, insights and trends from customer data.",
+        "Using edges and nodes design , agent is able to automate SQL error correction loops.",
+        "Leveraged automatic data sampling ,query examples and column descriptions to improve query accuracy and consistency."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS",
+        "Oracle DB"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "LangGraph",
+        "SqAlchemy",
+        "AWS - EC2",
+        "Oracle DB",
+        "Docker"
       ]
     },
     {
@@ -173,25 +198,30 @@
       "category": "professional",
       "summary": "Web Application to manage mnesia db data (restore, backup, etc)",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "Developed full stack web application to manage mnesia db data.",
+        "Implemented REST API's to update mnesia db rows and push back.",
+        "Implemented automatic restore and backup of mnesia db data."
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "In Peak seasons due to bad assets or job data, the Erlang engine comes down due to corrupt mnesia db data. So company wanted to develop a web application to manage mnesia db data (restore, backup, etc)",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed full stack web application to manage mnesia db data using python sub process approach.",
+        "Implemented scalable UI components and REST API's to update mnesia db rows and push back to db.",
+        "Implemented automatic restore and backup of mnesia db data using automation process."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "FastAPI",
+        "ReactJS",
+        "AWS",
+        "mnesia db",
+        "sub process"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Python",
+        "FastAPI",
+        "ReactJS",
+        "AWS - EC2",
+        "mnesia db",
+        "sub process"
       ]
     },
     {
@@ -201,25 +231,31 @@
       "category": "professional",
       "summary": "Microservices for Forge application (pdf generation, cutlines, templates etc)",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "Developed new microservices for Forge to improve scalability.",
+        "Developed cut lines feature which reduced material wastage by 30%.",
+        "Built templates for new product lines which increased customers by 20%."
       ],
-      "caseStudy": "Pitch Intel is an enterprise sales enablement platform that uses LLM-driven content workflows to generate tailored sales pitches. The platform integrates with company-specific brand tokens and review workflows to ensure content accuracy and compliance.",
+      "caseStudy": "Existing monolith has become bottleneck for Erlang OTP engine scalability. So company required new microservices(pdf generation, cutlines, templates etc) for Forge application to improve scalability and performance.",
       "fullDetails": [
-        "Shipped a data-driven experience for enterprise sales teams with real-time pitch generation.",
-        "Improved content accuracy through brand tokens and company-specific content controls.",
-        "Built review workflows enabling sales managers to approve and refine generated pitches.",
-        "Scaled the AI service to multi-tenant operations with reduced processing latency."
+        "Developed new microservices for Forge application to improve scalability and throughput.",
+        "Developed cut lines feature which reduced material wastage by 30% and helped company save 1000's of dollars in material costs.",
+        "Built xml templates for new product lines which brought new customers and increased revenue by 20% by reducing time to market."
       ],
       "topSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker",
+        "CI/CD"
       ],
       "allSkills": [
-        "React",
-        "OpenAI",
-        "AWS"
+        "Python",
+        "FastAPI",
+        "AWS EC2",
+        "Erlang OTP",
+        "XML",
+        "Docker"
       ]
     },
     {
@@ -227,10 +263,11 @@
       "title": "Ledger Insights",
       "company": "Creditsafe",
       "category": "professional",
-      "summary": "Creditor & debtor cash flow and trade groups",
+      "summary": "Modernization of Ledger Insights (Finance & Accounting)",
       "bullets": [
-        "Executes API's behind the scene with correct endpoints and params",
-        "scalable to 10-100-1000 api's "
+        "Made end-to-end contributions to modernization of ledger insights.",
+        "Developed critical microservices which were missing in Ledger 3D.",
+        "Developed UI components, charts and graphs to improve UI/UX."
       ],
       "caseStudy": "Ledger Insights was built to overcome shortfalls of Ledger 3D platform which lacks Trade Groups, Reports, Accounts Receivable and Debtor payment trends etc.",
       "fullDetails": [
@@ -248,7 +285,7 @@
       ],
       "allSkills": [
         "Fast API",
-        ".NET",
+        ".NET Framework",
         "React",
         "AWS - ECS, lambda, S3 etc",
         "Python",
@@ -265,7 +302,9 @@
       "category": "professional",
       "summary": "Data Goverance & Data Quality Control",
       "bullets": [
-       
+       "Built Data Management Application to improve data accuracy by 7%",
+       "Developed REST APIs for customer platforms with data validation.",
+       "Created dynamic entity workflows using Jinja, WTForms, Airflow etc."
       ],
       "caseStudy": "Data provided by vendors are not always accurate and upto date. So the organization required a way to correct the data and improve data quality across all entities in a structured way.",
       "fullDetails": [
